@@ -1,0 +1,1 @@
+/home/adel/ros2_ws/build/cola2_msgs/rosidl_generator_py/cola2_msgs/_cola2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c

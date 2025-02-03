@@ -1,0 +1,92 @@
+[0.016s] Invoking command in '/home/adel/ros2_ws/build/minigirona_description': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/stonefish_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/adel/ros2_ws/src/minigirona_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adel/ros2_ws/install/minigirona_description
+[0.074s] -- The C compiler identification is GNU 11.4.0
+[0.138s] -- The CXX compiler identification is GNU 11.4.0
+[0.146s] -- Detecting C compiler ABI info
+[0.228s] -- Detecting C compiler ABI info - done
+[0.235s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.236s] -- Detecting C compile features
+[0.236s] -- Detecting C compile features - done
+[0.239s] -- Detecting CXX compiler ABI info
+[0.336s] -- Detecting CXX compiler ABI info - done
+[0.347s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.347s] -- Detecting CXX compile features
+[0.348s] -- Detecting CXX compile features - done
+[0.350s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.530s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.608s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.634s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.677s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.682s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.690s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.703s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.721s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.767s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.770s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.881s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.917s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.963s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.971s] -- Looking for pthread.h
+[1.066s] -- Looking for pthread.h - found
+[1.066s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.166s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.168s] -- Found Threads: TRUE  
+[1.228s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[1.258s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.260s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.260s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.421s] -- Found cola2_lib_ros: 24.1.2 (/home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/cmake)
+[1.522s] -- COLA2_LIB found version 24.1.1
+[1.522s] -- COLA2_LIB include directories: /home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/../../include/cola2_lib;/usr/include;/usr/include/eigen3
+[1.522s] -- COLA2_LIB libraries: cola2_io;cola2_utils;cola2_mission;cola2_comms;cola2_wmmc;cola2_wmm
+[1.522s] -- Including COLA2_LIB include directories
+[1.541s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread date_time filesystem 
+[1.546s] -- Found TinyXML: /usr/lib/x86_64-linux-gnu/libtinyxml.so  
+[1.624s] -- Configuring done
+[1.629s] -- Generating done
+[1.632s] -- Build files have been written to: /home/adel/ros2_ws/build/minigirona_description
+[1.643s] Invoked command in '/home/adel/ros2_ws/build/minigirona_description' returned '0': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/stonefish_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/adel/ros2_ws/src/minigirona_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adel/ros2_ws/install/minigirona_description
+[1.645s] Invoking command in '/home/adel/ros2_ws/build/minigirona_description': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/stonefish_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/adel/ros2_ws/build/minigirona_description -- -j12 -l12
+[1.690s] Invoked command in '/home/adel/ros2_ws/build/minigirona_description' returned '0': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/stonefish_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/adel/ros2_ws/build/minigirona_description -- -j12 -l12
+[1.692s] Invoking command in '/home/adel/ros2_ws/build/minigirona_description': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/stonefish_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/adel/ros2_ws/build/minigirona_description
+[1.699s] -- Install configuration: ""
+[1.699s] -- Execute custom install script
+[1.700s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/launch/minig_description.launch.py
+[1.709s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/meshes/minigirona.dae
+[1.722s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/urdf/core.urdf.xacro
+[1.731s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/urdf/payload.urdf.xacro
+[1.743s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/meshes/antenna.obj
+[1.754s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/meshes/antenna_phy.obj
+[1.764s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/meshes/duct.obj
+[1.774s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/meshes/duct_phy.obj
+[1.782s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/meshes/girona500.dae
+[1.793s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/meshes/hull.obj
+[1.804s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/meshes/hull_phy.obj
+[1.813s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/meshes/hull_phy2.obj
+[1.824s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/meshes/lower_hull.obj
+[1.834s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/meshes/propeller.obj
+[1.844s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/meshes/tbar_back.obj
+[1.855s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/meshes/tbar_front.obj
+[1.866s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/meshes/tbar_phy.obj
+[1.878s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/meshes/upper_hull.obj
+[1.889s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/textures/duct_tex.png
+[1.898s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/textures/lower_hull_tex.png
+[1.909s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/textures/propeller_tex.png
+[1.917s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/textures/tbar_back_tex.png
+[1.927s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/textures/tbar_front_tex.png
+[1.938s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/textures/upper_hull_tex.png
+[1.947s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/ament_index/resource_index/package_run_dependencies/minigirona_description
+[1.957s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/ament_index/resource_index/parent_prefix_path/minigirona_description
+[1.968s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/environment/ament_prefix_path.sh
+[1.980s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/environment/ament_prefix_path.dsv
+[1.991s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/environment/path.sh
+[2.002s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/environment/path.dsv
+[2.014s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/local_setup.bash
+[2.024s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/local_setup.sh
+[2.032s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/local_setup.zsh
+[2.042s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/local_setup.dsv
+[2.050s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/package.dsv
+[2.058s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/ament_index/resource_index/packages/minigirona_description
+[2.070s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/cmake/minigirona_descriptionConfig.cmake
+[2.081s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/cmake/minigirona_descriptionConfig-version.cmake
+[2.095s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/package.xml
+[2.113s] Invoked command in '/home/adel/ros2_ws/build/minigirona_description' returned '0': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/stonefish_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/adel/ros2_ws/build/minigirona_description

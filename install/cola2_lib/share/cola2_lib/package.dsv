@@ -1,0 +1,17 @@
+source;share/cola2_lib/hook/cmake_module_path.ps1
+source;share/cola2_lib/hook/cmake_module_path.dsv
+source;share/cola2_lib/hook/cmake_module_path.sh
+source;share/cola2_lib/hook/cmake_module_path1.ps1
+source;share/cola2_lib/hook/cmake_module_path1.dsv
+source;share/cola2_lib/hook/cmake_module_path1.sh
+source;share/cola2_lib/hook/cmake_prefix_path.ps1
+source;share/cola2_lib/hook/cmake_prefix_path.dsv
+source;share/cola2_lib/hook/cmake_prefix_path.sh
+source;share/cola2_lib/hook/ld_library_path_lib.ps1
+source;share/cola2_lib/hook/ld_library_path_lib.dsv
+source;share/cola2_lib/hook/ld_library_path_lib.sh
+source;share/cola2_lib/local_setup.bash
+source;share/cola2_lib/local_setup.dsv
+source;share/cola2_lib/local_setup.ps1
+source;share/cola2_lib/local_setup.sh
+source;share/cola2_lib/local_setup.zsh

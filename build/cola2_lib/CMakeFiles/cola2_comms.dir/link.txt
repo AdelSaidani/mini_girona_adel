@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libcola2_comms.so -o libcola2_comms.so CMakeFiles/cola2_comms.dir/src/cola2_lib/comms/altitude.c.o CMakeFiles/cola2_comms.dir/src/cola2_lib/comms/elapsed_time.c.o  -Wl,-rpath,:::::::::::::::::::::::::::::::::::::::: 

@@ -1,0 +1,86 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found cola2_lib_ros: 24.1.2 (/home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/cmake)
+-- COLA2_LIB found version 24.1.1
+-- COLA2_LIB include directories: /home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/../../include/cola2_lib;/usr/include;/usr/include/eigen3
+-- COLA2_LIB libraries: cola2_io;cola2_utils;cola2_mission;cola2_comms;cola2_wmmc;cola2_wmm
+-- Including COLA2_LIB include directories
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread date_time filesystem 
+-- Found TinyXML: /usr/lib/x86_64-linux-gnu/libtinyxml.so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/adel/ros2_ws/build/minigirona_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/launch/minig_description.launch.py
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/meshes/minigirona.dae
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/urdf/core.urdf.xacro
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/urdf/payload.urdf.xacro
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/meshes/antenna.obj
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/meshes/antenna_phy.obj
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/meshes/duct.obj
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/meshes/duct_phy.obj
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/meshes/girona500.dae
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/meshes/hull.obj
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/meshes/hull_phy.obj
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/meshes/hull_phy2.obj
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/meshes/lower_hull.obj
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/meshes/propeller.obj
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/meshes/tbar_back.obj
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/meshes/tbar_front.obj
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/meshes/tbar_phy.obj
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/meshes/upper_hull.obj
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/textures/duct_tex.png
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/textures/lower_hull_tex.png
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/textures/propeller_tex.png
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/textures/tbar_back_tex.png
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/textures/tbar_front_tex.png
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/resources/textures/upper_hull_tex.png
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/ament_index/resource_index/package_run_dependencies/minigirona_description
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/ament_index/resource_index/parent_prefix_path/minigirona_description
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/environment/path.sh
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/environment/path.dsv
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/local_setup.bash
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/local_setup.sh
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/local_setup.zsh
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/local_setup.dsv
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/package.dsv
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/ament_index/resource_index/packages/minigirona_description
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/cmake/minigirona_descriptionConfig.cmake
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/cmake/minigirona_descriptionConfig-version.cmake
+-- Symlinking: /home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/package.xml

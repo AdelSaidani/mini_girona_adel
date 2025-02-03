@@ -1,0 +1,654 @@
+[0.058s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.058s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7dffbf1517b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7dffbf2666b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7dffbf2666b0>>, mixin_verb=('build',))
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.144s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/adel/ros2_ws'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_control) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_control) by extension 'ignore_ament_install'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_control) by extensions ['colcon_pkg']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_control) by extension 'colcon_pkg'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_control) by extensions ['colcon_meta']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_control) by extension 'colcon_meta'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_control) by extensions ['ros']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_control) by extension 'ros'
+[0.153s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cola2_control' with type 'ros.ament_cmake' and name 'cola2_control'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_lib) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_lib) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_lib) by extension 'ignore_ament_install'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_lib) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_lib) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_lib) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_lib) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_lib) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_lib) by extension 'ros'
+[0.154s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cola2_lib' with type 'ros.ament_cmake' and name 'cola2_lib'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_lib_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_lib_ros) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_lib_ros) by extension 'ignore_ament_install'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_lib_ros) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_lib_ros) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_lib_ros) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_lib_ros) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_lib_ros) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_lib_ros) by extension 'ros'
+[0.155s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cola2_lib_ros' with type 'ros.ament_cmake' and name 'cola2_lib_ros'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_minigirona) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_minigirona) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_minigirona) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_minigirona) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_minigirona) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_minigirona) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_minigirona) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_minigirona) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_minigirona) by extension 'ros'
+[0.156s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cola2_minigirona' with type 'ros.ament_cmake' and name 'cola2_minigirona'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_msgs) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_msgs) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_msgs) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_msgs) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_msgs) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_msgs) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_msgs) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cola2_msgs) by extension 'ros'
+[0.157s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cola2_msgs' with type 'ros.ament_cmake' and name 'cola2_msgs'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/minigirona_description) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/minigirona_description) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/minigirona_description) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/minigirona_description) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/minigirona_description) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/minigirona_description) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/minigirona_description) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/minigirona_description) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/minigirona_description) by extension 'ros'
+[0.157s] DEBUG:colcon.colcon_core.package_identification:Package 'src/minigirona_description' with type 'ros.ament_cmake' and name 'minigirona_description'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/minigirona_stonefish) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/minigirona_stonefish) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/minigirona_stonefish) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/minigirona_stonefish) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/minigirona_stonefish) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/minigirona_stonefish) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/minigirona_stonefish) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/minigirona_stonefish) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/minigirona_stonefish) by extension 'ros'
+[0.158s] DEBUG:colcon.colcon_core.package_identification:Package 'src/minigirona_stonefish' with type 'ros.ament_cmake' and name 'minigirona_stonefish'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/stonefish_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/stonefish_ros2) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/stonefish_ros2) by extension 'ignore_ament_install'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/stonefish_ros2) by extensions ['colcon_pkg']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/stonefish_ros2) by extension 'colcon_pkg'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/stonefish_ros2) by extensions ['colcon_meta']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/stonefish_ros2) by extension 'colcon_meta'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/stonefish_ros2) by extensions ['ros']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/stonefish_ros2) by extension 'ros'
+[0.159s] DEBUG:colcon.colcon_core.package_identification:Package 'src/stonefish_ros2' with type 'ros.ament_cmake' and name 'stonefish_ros2'
+[0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.179s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/adel/ros2_ws/install/cola2_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.179s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/adel/ros2_ws/install/stonefish_ros2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.179s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/adel/ros2_ws/install/cola2_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.179s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/adel/ros2_ws/install/cola2_lib' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.179s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/adel/ros2_ws/install/stonefish_ros2' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.179s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/adel/ros2_ws/install
+[0.180s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 279 installed packages in /opt/ros/humble
+[0.180s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'cola2_lib' build argument 'cmake_args' from command line to 'None'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'cola2_lib' build argument 'cmake_target' from command line to 'None'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'cola2_lib' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'cola2_lib' build argument 'cmake_clean_cache' from command line to 'False'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'cola2_lib' build argument 'cmake_clean_first' from command line to 'False'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'cola2_lib' build argument 'cmake_force_configure' from command line to 'False'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'cola2_lib' build argument 'ament_cmake_args' from command line to 'None'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'cola2_lib' build argument 'catkin_cmake_args' from command line to 'None'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'cola2_lib' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.199s] DEBUG:colcon.colcon_core.verb:Building package 'cola2_lib' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adel/ros2_ws/build/cola2_lib', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adel/ros2_ws/install/cola2_lib', 'merge_install': False, 'path': '/home/adel/ros2_ws/src/cola2_lib', 'symlink_install': True, 'test_result_base': None}
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'cola2_msgs' build argument 'cmake_args' from command line to 'None'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'cola2_msgs' build argument 'cmake_target' from command line to 'None'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'cola2_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'cola2_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'cola2_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'cola2_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'cola2_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'cola2_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'cola2_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.199s] DEBUG:colcon.colcon_core.verb:Building package 'cola2_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adel/ros2_ws/build/cola2_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adel/ros2_ws/install/cola2_msgs', 'merge_install': False, 'path': '/home/adel/ros2_ws/src/cola2_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'stonefish_ros2' build argument 'cmake_args' from command line to 'None'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'stonefish_ros2' build argument 'cmake_target' from command line to 'None'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'stonefish_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'stonefish_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'stonefish_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'stonefish_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'stonefish_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'stonefish_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'stonefish_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.200s] DEBUG:colcon.colcon_core.verb:Building package 'stonefish_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adel/ros2_ws/build/stonefish_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adel/ros2_ws/install/stonefish_ros2', 'merge_install': False, 'path': '/home/adel/ros2_ws/src/stonefish_ros2', 'symlink_install': True, 'test_result_base': None}
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'cola2_lib_ros' build argument 'cmake_args' from command line to 'None'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'cola2_lib_ros' build argument 'cmake_target' from command line to 'None'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'cola2_lib_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'cola2_lib_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'cola2_lib_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'cola2_lib_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'cola2_lib_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'cola2_lib_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'cola2_lib_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.200s] DEBUG:colcon.colcon_core.verb:Building package 'cola2_lib_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adel/ros2_ws/build/cola2_lib_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adel/ros2_ws/install/cola2_lib_ros', 'merge_install': False, 'path': '/home/adel/ros2_ws/src/cola2_lib_ros', 'symlink_install': True, 'test_result_base': None}
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'cola2_control' build argument 'cmake_args' from command line to 'None'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'cola2_control' build argument 'cmake_target' from command line to 'None'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'cola2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'cola2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'cola2_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'cola2_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'cola2_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'cola2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'cola2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.200s] DEBUG:colcon.colcon_core.verb:Building package 'cola2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adel/ros2_ws/build/cola2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adel/ros2_ws/install/cola2_control', 'merge_install': False, 'path': '/home/adel/ros2_ws/src/cola2_control', 'symlink_install': True, 'test_result_base': None}
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'minigirona_description' build argument 'cmake_args' from command line to 'None'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'minigirona_description' build argument 'cmake_target' from command line to 'None'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'minigirona_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'minigirona_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'minigirona_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'minigirona_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'minigirona_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'minigirona_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'minigirona_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.200s] DEBUG:colcon.colcon_core.verb:Building package 'minigirona_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adel/ros2_ws/build/minigirona_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adel/ros2_ws/install/minigirona_description', 'merge_install': False, 'path': '/home/adel/ros2_ws/src/minigirona_description', 'symlink_install': True, 'test_result_base': None}
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'cola2_minigirona' build argument 'cmake_args' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'cola2_minigirona' build argument 'cmake_target' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'cola2_minigirona' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'cola2_minigirona' build argument 'cmake_clean_cache' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'cola2_minigirona' build argument 'cmake_clean_first' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'cola2_minigirona' build argument 'cmake_force_configure' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'cola2_minigirona' build argument 'ament_cmake_args' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'cola2_minigirona' build argument 'catkin_cmake_args' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'cola2_minigirona' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.201s] DEBUG:colcon.colcon_core.verb:Building package 'cola2_minigirona' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adel/ros2_ws/build/cola2_minigirona', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adel/ros2_ws/install/cola2_minigirona', 'merge_install': False, 'path': '/home/adel/ros2_ws/src/cola2_minigirona', 'symlink_install': True, 'test_result_base': None}
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'minigirona_stonefish' build argument 'cmake_args' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'minigirona_stonefish' build argument 'cmake_target' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'minigirona_stonefish' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'minigirona_stonefish' build argument 'cmake_clean_cache' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'minigirona_stonefish' build argument 'cmake_clean_first' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'minigirona_stonefish' build argument 'cmake_force_configure' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'minigirona_stonefish' build argument 'ament_cmake_args' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'minigirona_stonefish' build argument 'catkin_cmake_args' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'minigirona_stonefish' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.201s] DEBUG:colcon.colcon_core.verb:Building package 'minigirona_stonefish' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adel/ros2_ws/build/minigirona_stonefish', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adel/ros2_ws/install/minigirona_stonefish', 'merge_install': False, 'path': '/home/adel/ros2_ws/src/minigirona_stonefish', 'symlink_install': True, 'test_result_base': None}
+[0.201s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.202s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.202s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adel/ros2_ws/src/cola2_lib' with build type 'ament_cmake'
+[0.202s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adel/ros2_ws/src/cola2_lib'
+[0.203s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.203s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.203s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.205s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adel/ros2_ws/src/cola2_msgs' with build type 'ament_cmake'
+[0.205s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adel/ros2_ws/src/cola2_msgs'
+[0.205s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.205s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.207s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adel/ros2_ws/src/stonefish_ros2' with build type 'ament_cmake'
+[0.207s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adel/ros2_ws/src/stonefish_ros2'
+[0.207s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.207s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adel/ros2_ws/build/cola2_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adel/ros2_ws/src/cola2_lib -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adel/ros2_ws/install/cola2_lib
+[0.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adel/ros2_ws/build/cola2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adel/ros2_ws/src/cola2_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adel/ros2_ws/install/cola2_msgs
+[0.215s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adel/ros2_ws/build/stonefish_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adel/ros2_ws/src/stonefish_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adel/ros2_ws/install/stonefish_ros2
+[0.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adel/ros2_ws/build/cola2_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adel/ros2_ws/src/cola2_lib -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adel/ros2_ws/install/cola2_lib
+[0.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adel/ros2_ws/build/cola2_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adel/ros2_ws/build/cola2_lib -- -j12 -l12
+[2.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adel/ros2_ws/build/cola2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adel/ros2_ws/src/cola2_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adel/ros2_ws/install/cola2_msgs
+[2.644s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adel/ros2_ws/build/cola2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adel/ros2_ws/build/cola2_msgs -- -j12 -l12
+[4.959s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adel/ros2_ws/build/stonefish_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adel/ros2_ws/src/stonefish_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adel/ros2_ws/install/stonefish_ros2
+[4.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adel/ros2_ws/build/stonefish_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adel/ros2_ws/build/stonefish_ros2 -- -j12 -l12
+[6.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adel/ros2_ws/build/cola2_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adel/ros2_ws/build/cola2_lib -- -j12 -l12
+[6.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adel/ros2_ws/build/cola2_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adel/ros2_ws/build/cola2_lib
+[10.504s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cola2_lib)
+[10.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adel/ros2_ws/build/cola2_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adel/ros2_ws/build/cola2_lib
+[10.512s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_lib' for CMake module files
+[10.512s] Level 1:colcon.colcon_core.shell:create_environment_hook('cola2_lib', 'cmake_module_path')
+[10.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/hook/cmake_module_path.ps1'
+[10.514s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/hook/cmake_module_path.dsv'
+[10.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/hook/cmake_module_path.sh'
+[10.520s] Level 1:colcon.colcon_core.shell:create_environment_hook('cola2_lib', 'cmake_module_path1')
+[10.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/hook/cmake_module_path1.ps1'
+[10.521s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/hook/cmake_module_path1.dsv'
+[10.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/hook/cmake_module_path1.sh'
+[10.526s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_lib' for CMake config files
+[10.527s] Level 1:colcon.colcon_core.shell:create_environment_hook('cola2_lib', 'cmake_prefix_path')
+[10.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/hook/cmake_prefix_path.ps1'
+[10.528s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/hook/cmake_prefix_path.dsv'
+[10.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/hook/cmake_prefix_path.sh'
+[10.529s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_lib/lib'
+[10.530s] Level 1:colcon.colcon_core.shell:create_environment_hook('cola2_lib', 'ld_library_path_lib')
+[10.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/hook/ld_library_path_lib.ps1'
+[10.533s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/hook/ld_library_path_lib.dsv'
+[10.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/hook/ld_library_path_lib.sh'
+[10.536s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_lib/bin'
+[10.537s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_lib/lib/pkgconfig/cola2_lib.pc'
+[10.537s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_lib/lib/python3.10/site-packages'
+[10.537s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_lib/bin'
+[10.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/package.ps1'
+[10.544s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/package.dsv'
+[10.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/package.sh'
+[10.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/package.bash'
+[10.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/package.zsh'
+[10.552s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adel/ros2_ws/install/cola2_lib/share/colcon-core/packages/cola2_lib)
+[10.554s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cola2_lib)
+[10.554s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_lib' for CMake module files
+[10.555s] Level 1:colcon.colcon_core.shell:create_environment_hook('cola2_lib', 'cmake_module_path')
+[10.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/hook/cmake_module_path.ps1'
+[10.556s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/hook/cmake_module_path.dsv'
+[10.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/hook/cmake_module_path.sh'
+[10.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('cola2_lib', 'cmake_module_path1')
+[10.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/hook/cmake_module_path1.ps1'
+[10.566s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/hook/cmake_module_path1.dsv'
+[10.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/hook/cmake_module_path1.sh'
+[10.568s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_lib' for CMake config files
+[10.568s] Level 1:colcon.colcon_core.shell:create_environment_hook('cola2_lib', 'cmake_prefix_path')
+[10.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/hook/cmake_prefix_path.ps1'
+[10.573s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/hook/cmake_prefix_path.dsv'
+[10.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/hook/cmake_prefix_path.sh'
+[10.575s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_lib/lib'
+[10.575s] Level 1:colcon.colcon_core.shell:create_environment_hook('cola2_lib', 'ld_library_path_lib')
+[10.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/hook/ld_library_path_lib.ps1'
+[10.576s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/hook/ld_library_path_lib.dsv'
+[10.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/hook/ld_library_path_lib.sh'
+[10.581s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_lib/bin'
+[10.581s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_lib/lib/pkgconfig/cola2_lib.pc'
+[10.581s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_lib/lib/python3.10/site-packages'
+[10.582s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_lib/bin'
+[10.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/package.ps1'
+[10.587s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/package.dsv'
+[10.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/package.sh'
+[10.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/package.bash'
+[10.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/package.zsh'
+[10.598s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adel/ros2_ws/install/cola2_lib/share/colcon-core/packages/cola2_lib)
+[39.386s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adel/ros2_ws/build/cola2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adel/ros2_ws/build/cola2_msgs -- -j12 -l12
+[39.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adel/ros2_ws/build/cola2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adel/ros2_ws/build/cola2_msgs
+[47.998s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cola2_msgs)
+[47.999s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_msgs' for CMake module files
+[47.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adel/ros2_ws/build/cola2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adel/ros2_ws/build/cola2_msgs
+[48.000s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_msgs' for CMake config files
+[48.001s] Level 1:colcon.colcon_core.shell:create_environment_hook('cola2_msgs', 'cmake_prefix_path')
+[48.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_msgs/share/cola2_msgs/hook/cmake_prefix_path.ps1'
+[48.002s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adel/ros2_ws/install/cola2_msgs/share/cola2_msgs/hook/cmake_prefix_path.dsv'
+[48.002s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_msgs/share/cola2_msgs/hook/cmake_prefix_path.sh'
+[48.003s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_msgs/lib'
+[48.003s] Level 1:colcon.colcon_core.shell:create_environment_hook('cola2_msgs', 'ld_library_path_lib')
+[48.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_msgs/share/cola2_msgs/hook/ld_library_path_lib.ps1'
+[48.004s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adel/ros2_ws/install/cola2_msgs/share/cola2_msgs/hook/ld_library_path_lib.dsv'
+[48.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_msgs/share/cola2_msgs/hook/ld_library_path_lib.sh'
+[48.005s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_msgs/bin'
+[48.005s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_msgs/lib/pkgconfig/cola2_msgs.pc'
+[48.005s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_msgs/lib/python3.10/site-packages'
+[48.005s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_msgs/bin'
+[48.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_msgs/share/cola2_msgs/package.ps1'
+[48.006s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adel/ros2_ws/install/cola2_msgs/share/cola2_msgs/package.dsv'
+[48.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_msgs/share/cola2_msgs/package.sh'
+[48.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_msgs/share/cola2_msgs/package.bash'
+[48.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_msgs/share/cola2_msgs/package.zsh'
+[48.007s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adel/ros2_ws/install/cola2_msgs/share/colcon-core/packages/cola2_msgs)
+[48.008s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cola2_msgs)
+[48.008s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_msgs' for CMake module files
+[48.008s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_msgs' for CMake config files
+[48.009s] Level 1:colcon.colcon_core.shell:create_environment_hook('cola2_msgs', 'cmake_prefix_path')
+[48.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_msgs/share/cola2_msgs/hook/cmake_prefix_path.ps1'
+[48.009s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adel/ros2_ws/install/cola2_msgs/share/cola2_msgs/hook/cmake_prefix_path.dsv'
+[48.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_msgs/share/cola2_msgs/hook/cmake_prefix_path.sh'
+[48.010s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_msgs/lib'
+[48.010s] Level 1:colcon.colcon_core.shell:create_environment_hook('cola2_msgs', 'ld_library_path_lib')
+[48.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_msgs/share/cola2_msgs/hook/ld_library_path_lib.ps1'
+[48.010s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adel/ros2_ws/install/cola2_msgs/share/cola2_msgs/hook/ld_library_path_lib.dsv'
+[48.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_msgs/share/cola2_msgs/hook/ld_library_path_lib.sh'
+[48.011s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_msgs/bin'
+[48.011s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_msgs/lib/pkgconfig/cola2_msgs.pc'
+[48.011s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_msgs/lib/python3.10/site-packages'
+[48.011s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_msgs/bin'
+[48.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_msgs/share/cola2_msgs/package.ps1'
+[48.012s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adel/ros2_ws/install/cola2_msgs/share/cola2_msgs/package.dsv'
+[48.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_msgs/share/cola2_msgs/package.sh'
+[48.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_msgs/share/cola2_msgs/package.bash'
+[48.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_msgs/share/cola2_msgs/package.zsh'
+[48.013s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adel/ros2_ws/install/cola2_msgs/share/colcon-core/packages/cola2_msgs)
+[48.013s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adel/ros2_ws/src/cola2_lib_ros' with build type 'ament_cmake'
+[48.013s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adel/ros2_ws/src/cola2_lib_ros'
+[48.014s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[48.014s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[48.025s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adel/ros2_ws/build/cola2_lib_ros': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/stonefish_ros2:/opt/ros/humble /usr/bin/cmake /home/adel/ros2_ws/src/cola2_lib_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adel/ros2_ws/install/cola2_lib_ros
+[49.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adel/ros2_ws/build/cola2_lib_ros' returned '0': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/stonefish_ros2:/opt/ros/humble /usr/bin/cmake /home/adel/ros2_ws/src/cola2_lib_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adel/ros2_ws/install/cola2_lib_ros
+[49.215s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adel/ros2_ws/build/cola2_lib_ros': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/stonefish_ros2:/opt/ros/humble /usr/bin/cmake --build /home/adel/ros2_ws/build/cola2_lib_ros -- -j12 -l12
+[60.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adel/ros2_ws/build/cola2_lib_ros' returned '0': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/stonefish_ros2:/opt/ros/humble /usr/bin/cmake --build /home/adel/ros2_ws/build/cola2_lib_ros -- -j12 -l12
+[60.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adel/ros2_ws/build/cola2_lib_ros': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/stonefish_ros2:/opt/ros/humble /usr/bin/cmake --install /home/adel/ros2_ws/build/cola2_lib_ros
+[60.700s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cola2_lib_ros)
+[60.701s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_lib_ros' for CMake module files
+[60.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adel/ros2_ws/build/cola2_lib_ros' returned '0': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/stonefish_ros2:/opt/ros/humble /usr/bin/cmake --install /home/adel/ros2_ws/build/cola2_lib_ros
+[60.702s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_lib_ros' for CMake config files
+[60.702s] Level 1:colcon.colcon_core.shell:create_environment_hook('cola2_lib_ros', 'cmake_prefix_path')
+[60.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/hook/cmake_prefix_path.ps1'
+[60.703s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/hook/cmake_prefix_path.dsv'
+[60.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/hook/cmake_prefix_path.sh'
+[60.704s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_lib_ros/lib'
+[60.704s] Level 1:colcon.colcon_core.shell:create_environment_hook('cola2_lib_ros', 'ld_library_path_lib')
+[60.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/hook/ld_library_path_lib.ps1'
+[60.704s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/hook/ld_library_path_lib.dsv'
+[60.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/hook/ld_library_path_lib.sh'
+[60.705s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_lib_ros/bin'
+[60.705s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_lib_ros/lib/pkgconfig/cola2_lib_ros.pc'
+[60.705s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_lib_ros/lib/python3.10/site-packages'
+[60.705s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_lib_ros/bin'
+[60.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/package.ps1'
+[60.706s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/package.dsv'
+[60.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/package.sh'
+[60.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/package.bash'
+[60.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/package.zsh'
+[60.707s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adel/ros2_ws/install/cola2_lib_ros/share/colcon-core/packages/cola2_lib_ros)
+[60.707s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cola2_lib_ros)
+[60.708s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_lib_ros' for CMake module files
+[60.708s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_lib_ros' for CMake config files
+[60.708s] Level 1:colcon.colcon_core.shell:create_environment_hook('cola2_lib_ros', 'cmake_prefix_path')
+[60.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/hook/cmake_prefix_path.ps1'
+[60.709s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/hook/cmake_prefix_path.dsv'
+[60.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/hook/cmake_prefix_path.sh'
+[60.709s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_lib_ros/lib'
+[60.710s] Level 1:colcon.colcon_core.shell:create_environment_hook('cola2_lib_ros', 'ld_library_path_lib')
+[60.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/hook/ld_library_path_lib.ps1'
+[60.710s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/hook/ld_library_path_lib.dsv'
+[60.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/hook/ld_library_path_lib.sh'
+[60.711s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_lib_ros/bin'
+[60.711s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_lib_ros/lib/pkgconfig/cola2_lib_ros.pc'
+[60.711s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_lib_ros/lib/python3.10/site-packages'
+[60.711s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_lib_ros/bin'
+[60.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/package.ps1'
+[60.712s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/package.dsv'
+[60.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/package.sh'
+[60.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/package.bash'
+[60.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/package.zsh'
+[60.713s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adel/ros2_ws/install/cola2_lib_ros/share/colcon-core/packages/cola2_lib_ros)
+[60.714s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adel/ros2_ws/src/minigirona_description' with build type 'ament_cmake'
+[60.714s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adel/ros2_ws/src/minigirona_description'
+[60.714s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[60.714s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[60.718s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adel/ros2_ws/src/cola2_control' with build type 'ament_cmake'
+[60.718s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adel/ros2_ws/src/cola2_control'
+[60.718s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[60.718s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[60.732s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adel/ros2_ws/build/minigirona_description': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/stonefish_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/adel/ros2_ws/src/minigirona_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adel/ros2_ws/install/minigirona_description
+[60.734s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adel/ros2_ws/build/cola2_control': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/stonefish_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/adel/ros2_ws/src/cola2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adel/ros2_ws/install/cola2_control
+[62.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adel/ros2_ws/build/minigirona_description' returned '0': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/stonefish_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/adel/ros2_ws/src/minigirona_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adel/ros2_ws/install/minigirona_description
+[62.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adel/ros2_ws/build/minigirona_description': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/stonefish_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/adel/ros2_ws/build/minigirona_description -- -j12 -l12
+[62.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adel/ros2_ws/build/minigirona_description' returned '0': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/stonefish_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/adel/ros2_ws/build/minigirona_description -- -j12 -l12
+[62.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adel/ros2_ws/build/minigirona_description': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/stonefish_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/adel/ros2_ws/build/minigirona_description
+[62.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adel/ros2_ws/build/cola2_control' returned '0': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/stonefish_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/adel/ros2_ws/src/cola2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adel/ros2_ws/install/cola2_control
+[62.729s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adel/ros2_ws/build/cola2_control': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/stonefish_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/adel/ros2_ws/build/cola2_control -- -j12 -l12
+[62.828s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minigirona_description)
+[62.829s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/minigirona_description' for CMake module files
+[62.830s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/minigirona_description' for CMake config files
+[62.830s] Level 1:colcon.colcon_core.shell:create_environment_hook('minigirona_description', 'cmake_prefix_path')
+[62.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/hook/cmake_prefix_path.ps1'
+[62.829s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adel/ros2_ws/build/minigirona_description' returned '0': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/stonefish_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/adel/ros2_ws/build/minigirona_description
+[62.832s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/hook/cmake_prefix_path.dsv'
+[62.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/hook/cmake_prefix_path.sh'
+[62.833s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/minigirona_description/bin'
+[62.833s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/minigirona_description/lib/pkgconfig/minigirona_description.pc'
+[62.834s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/minigirona_description/lib/python3.10/site-packages'
+[62.834s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/minigirona_description/bin'
+[62.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/package.ps1'
+[62.835s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/package.dsv'
+[62.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/package.sh'
+[62.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/package.bash'
+[62.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/package.zsh'
+[62.837s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adel/ros2_ws/install/minigirona_description/share/colcon-core/packages/minigirona_description)
+[62.838s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minigirona_description)
+[62.838s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/minigirona_description' for CMake module files
+[62.839s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/minigirona_description' for CMake config files
+[62.840s] Level 1:colcon.colcon_core.shell:create_environment_hook('minigirona_description', 'cmake_prefix_path')
+[62.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/hook/cmake_prefix_path.ps1'
+[62.841s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/hook/cmake_prefix_path.dsv'
+[62.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/hook/cmake_prefix_path.sh'
+[62.842s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/minigirona_description/bin'
+[62.842s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/minigirona_description/lib/pkgconfig/minigirona_description.pc'
+[62.842s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/minigirona_description/lib/python3.10/site-packages'
+[62.843s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/minigirona_description/bin'
+[62.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/package.ps1'
+[62.844s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/package.dsv'
+[62.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/package.sh'
+[62.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/package.bash'
+[62.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/minigirona_description/share/minigirona_description/package.zsh'
+[62.847s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adel/ros2_ws/install/minigirona_description/share/colcon-core/packages/minigirona_description)
+[62.848s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adel/ros2_ws/src/cola2_minigirona' with build type 'ament_cmake'
+[62.849s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adel/ros2_ws/src/cola2_minigirona'
+[62.849s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[62.849s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[62.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adel/ros2_ws/build/cola2_minigirona': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/minigirona_description:/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/minigirona_description:/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/stonefish_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/adel/ros2_ws/src/cola2_minigirona -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adel/ros2_ws/install/cola2_minigirona
+[66.660s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adel/ros2_ws/build/cola2_minigirona' returned '0': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/minigirona_description:/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/minigirona_description:/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/stonefish_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/adel/ros2_ws/src/cola2_minigirona -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adel/ros2_ws/install/cola2_minigirona
+[66.663s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adel/ros2_ws/build/cola2_minigirona': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/minigirona_description:/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/minigirona_description:/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/stonefish_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/adel/ros2_ws/build/cola2_minigirona -- -j12 -l12
+[66.710s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adel/ros2_ws/build/cola2_minigirona' returned '0': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/minigirona_description:/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/minigirona_description:/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/stonefish_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/adel/ros2_ws/build/cola2_minigirona -- -j12 -l12
+[66.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adel/ros2_ws/build/cola2_minigirona': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/minigirona_description:/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/minigirona_description:/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/stonefish_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/adel/ros2_ws/build/cola2_minigirona
+[67.981s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cola2_minigirona)
+[67.982s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_minigirona' for CMake module files
+[67.983s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adel/ros2_ws/build/cola2_minigirona' returned '0': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/minigirona_description:/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/minigirona_description:/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/stonefish_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/adel/ros2_ws/build/cola2_minigirona
+[67.983s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_minigirona' for CMake config files
+[67.983s] Level 1:colcon.colcon_core.shell:create_environment_hook('cola2_minigirona', 'cmake_prefix_path')
+[67.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_minigirona/share/cola2_minigirona/hook/cmake_prefix_path.ps1'
+[67.984s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adel/ros2_ws/install/cola2_minigirona/share/cola2_minigirona/hook/cmake_prefix_path.dsv'
+[67.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_minigirona/share/cola2_minigirona/hook/cmake_prefix_path.sh'
+[67.985s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_minigirona/bin'
+[67.985s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_minigirona/lib/pkgconfig/cola2_minigirona.pc'
+[67.986s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_minigirona/lib/python3.10/site-packages'
+[67.986s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_minigirona/bin'
+[67.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_minigirona/share/cola2_minigirona/package.ps1'
+[67.987s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adel/ros2_ws/install/cola2_minigirona/share/cola2_minigirona/package.dsv'
+[67.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_minigirona/share/cola2_minigirona/package.sh'
+[67.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_minigirona/share/cola2_minigirona/package.bash'
+[67.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_minigirona/share/cola2_minigirona/package.zsh'
+[67.988s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adel/ros2_ws/install/cola2_minigirona/share/colcon-core/packages/cola2_minigirona)
+[67.989s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cola2_minigirona)
+[67.989s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_minigirona' for CMake module files
+[67.990s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_minigirona' for CMake config files
+[67.990s] Level 1:colcon.colcon_core.shell:create_environment_hook('cola2_minigirona', 'cmake_prefix_path')
+[67.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_minigirona/share/cola2_minigirona/hook/cmake_prefix_path.ps1'
+[67.991s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adel/ros2_ws/install/cola2_minigirona/share/cola2_minigirona/hook/cmake_prefix_path.dsv'
+[67.991s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_minigirona/share/cola2_minigirona/hook/cmake_prefix_path.sh'
+[67.992s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_minigirona/bin'
+[67.992s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_minigirona/lib/pkgconfig/cola2_minigirona.pc'
+[67.992s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_minigirona/lib/python3.10/site-packages'
+[67.992s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_minigirona/bin'
+[67.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_minigirona/share/cola2_minigirona/package.ps1'
+[67.993s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adel/ros2_ws/install/cola2_minigirona/share/cola2_minigirona/package.dsv'
+[67.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_minigirona/share/cola2_minigirona/package.sh'
+[67.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_minigirona/share/cola2_minigirona/package.bash'
+[67.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_minigirona/share/cola2_minigirona/package.zsh'
+[67.995s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adel/ros2_ws/install/cola2_minigirona/share/colcon-core/packages/cola2_minigirona)
+[73.847s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adel/ros2_ws/build/stonefish_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adel/ros2_ws/build/stonefish_ros2 -- -j12 -l12
+[73.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adel/ros2_ws/build/stonefish_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adel/ros2_ws/build/stonefish_ros2
+[77.350s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stonefish_ros2)
+[77.350s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/stonefish_ros2' for CMake module files
+[77.351s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adel/ros2_ws/build/stonefish_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adel/ros2_ws/build/stonefish_ros2
+[77.351s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/stonefish_ros2' for CMake config files
+[77.352s] Level 1:colcon.colcon_core.shell:create_environment_hook('stonefish_ros2', 'cmake_prefix_path')
+[77.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/hook/cmake_prefix_path.ps1'
+[77.353s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adel/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/hook/cmake_prefix_path.dsv'
+[77.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/hook/cmake_prefix_path.sh'
+[77.353s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/stonefish_ros2/lib'
+[77.354s] Level 1:colcon.colcon_core.shell:create_environment_hook('stonefish_ros2', 'ld_library_path_lib')
+[77.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/hook/ld_library_path_lib.ps1'
+[77.354s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adel/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/hook/ld_library_path_lib.dsv'
+[77.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/hook/ld_library_path_lib.sh'
+[77.355s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/stonefish_ros2/bin'
+[77.355s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/stonefish_ros2/lib/pkgconfig/stonefish_ros2.pc'
+[77.355s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/stonefish_ros2/lib/python3.10/site-packages'
+[77.355s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/stonefish_ros2/bin'
+[77.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/package.ps1'
+[77.356s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adel/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/package.dsv'
+[77.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/package.sh'
+[77.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/package.bash'
+[77.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/package.zsh'
+[77.358s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adel/ros2_ws/install/stonefish_ros2/share/colcon-core/packages/stonefish_ros2)
+[77.358s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stonefish_ros2)
+[77.359s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/stonefish_ros2' for CMake module files
+[77.359s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/stonefish_ros2' for CMake config files
+[77.360s] Level 1:colcon.colcon_core.shell:create_environment_hook('stonefish_ros2', 'cmake_prefix_path')
+[77.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/hook/cmake_prefix_path.ps1'
+[77.361s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adel/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/hook/cmake_prefix_path.dsv'
+[77.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/hook/cmake_prefix_path.sh'
+[77.362s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/stonefish_ros2/lib'
+[77.362s] Level 1:colcon.colcon_core.shell:create_environment_hook('stonefish_ros2', 'ld_library_path_lib')
+[77.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/hook/ld_library_path_lib.ps1'
+[77.363s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adel/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/hook/ld_library_path_lib.dsv'
+[77.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/hook/ld_library_path_lib.sh'
+[77.364s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/stonefish_ros2/bin'
+[77.364s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/stonefish_ros2/lib/pkgconfig/stonefish_ros2.pc'
+[77.364s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/stonefish_ros2/lib/python3.10/site-packages'
+[77.364s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/stonefish_ros2/bin'
+[77.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/package.ps1'
+[77.365s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adel/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/package.dsv'
+[77.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/package.sh'
+[77.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/package.bash'
+[77.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/package.zsh'
+[77.388s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adel/ros2_ws/install/stonefish_ros2/share/colcon-core/packages/stonefish_ros2)
+[104.268s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adel/ros2_ws/build/cola2_control' returned '0': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/stonefish_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/adel/ros2_ws/build/cola2_control -- -j12 -l12
+[104.269s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adel/ros2_ws/build/cola2_control': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/stonefish_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/adel/ros2_ws/build/cola2_control
+[104.656s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cola2_control)
+[104.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adel/ros2_ws/build/cola2_control' returned '0': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/stonefish_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/adel/ros2_ws/build/cola2_control
+[104.657s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_control' for CMake module files
+[104.657s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_control' for CMake config files
+[104.657s] Level 1:colcon.colcon_core.shell:create_environment_hook('cola2_control', 'cmake_prefix_path')
+[104.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_control/share/cola2_control/hook/cmake_prefix_path.ps1'
+[104.658s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adel/ros2_ws/install/cola2_control/share/cola2_control/hook/cmake_prefix_path.dsv'
+[104.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_control/share/cola2_control/hook/cmake_prefix_path.sh'
+[104.658s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_control/lib'
+[104.658s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_control/bin'
+[104.658s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_control/lib/pkgconfig/cola2_control.pc'
+[104.659s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_control/lib/python3.10/site-packages'
+[104.659s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_control/bin'
+[104.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_control/share/cola2_control/package.ps1'
+[104.659s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adel/ros2_ws/install/cola2_control/share/cola2_control/package.dsv'
+[104.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_control/share/cola2_control/package.sh'
+[104.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_control/share/cola2_control/package.bash'
+[104.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_control/share/cola2_control/package.zsh'
+[104.660s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adel/ros2_ws/install/cola2_control/share/colcon-core/packages/cola2_control)
+[104.660s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cola2_control)
+[104.660s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_control' for CMake module files
+[104.661s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_control' for CMake config files
+[104.661s] Level 1:colcon.colcon_core.shell:create_environment_hook('cola2_control', 'cmake_prefix_path')
+[104.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_control/share/cola2_control/hook/cmake_prefix_path.ps1'
+[104.661s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adel/ros2_ws/install/cola2_control/share/cola2_control/hook/cmake_prefix_path.dsv'
+[104.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/cola2_control/share/cola2_control/hook/cmake_prefix_path.sh'
+[104.662s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_control/lib'
+[104.662s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_control/bin'
+[104.662s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_control/lib/pkgconfig/cola2_control.pc'
+[104.662s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_control/lib/python3.10/site-packages'
+[104.662s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/cola2_control/bin'
+[104.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_control/share/cola2_control/package.ps1'
+[104.662s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adel/ros2_ws/install/cola2_control/share/cola2_control/package.dsv'
+[104.663s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_control/share/cola2_control/package.sh'
+[104.663s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_control/share/cola2_control/package.bash'
+[104.663s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/cola2_control/share/cola2_control/package.zsh'
+[104.663s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adel/ros2_ws/install/cola2_control/share/colcon-core/packages/cola2_control)
+[104.663s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adel/ros2_ws/src/minigirona_stonefish' with build type 'ament_cmake'
+[104.663s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adel/ros2_ws/src/minigirona_stonefish'
+[104.663s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[104.664s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[104.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adel/ros2_ws/build/minigirona_stonefish': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_minigirona:/home/adel/ros2_ws/install/minigirona_description:/home/adel/ros2_ws/install/cola2_control:/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_minigirona:/home/adel/ros2_ws/install/minigirona_description:/home/adel/ros2_ws/install/cola2_control:/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/stonefish_ros2:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:/home/adel/ros2_ws/install/stonefish_ros2/lib:/home/adel/ros2_ws/install/cola2_msgs/lib:/home/adel/ros2_ws/install/cola2_lib/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/adel/ros2_ws/install/cola2_control/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/adel/ros2_ws/src/minigirona_stonefish -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adel/ros2_ws/install/minigirona_stonefish
+[105.605s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adel/ros2_ws/build/minigirona_stonefish' returned '0': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_minigirona:/home/adel/ros2_ws/install/minigirona_description:/home/adel/ros2_ws/install/cola2_control:/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_minigirona:/home/adel/ros2_ws/install/minigirona_description:/home/adel/ros2_ws/install/cola2_control:/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/stonefish_ros2:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:/home/adel/ros2_ws/install/stonefish_ros2/lib:/home/adel/ros2_ws/install/cola2_msgs/lib:/home/adel/ros2_ws/install/cola2_lib/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/adel/ros2_ws/install/cola2_control/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/adel/ros2_ws/src/minigirona_stonefish -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adel/ros2_ws/install/minigirona_stonefish
+[105.606s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adel/ros2_ws/build/minigirona_stonefish': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_minigirona:/home/adel/ros2_ws/install/minigirona_description:/home/adel/ros2_ws/install/cola2_control:/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_minigirona:/home/adel/ros2_ws/install/minigirona_description:/home/adel/ros2_ws/install/cola2_control:/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/stonefish_ros2:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:/home/adel/ros2_ws/install/stonefish_ros2/lib:/home/adel/ros2_ws/install/cola2_msgs/lib:/home/adel/ros2_ws/install/cola2_lib/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/adel/ros2_ws/install/cola2_control/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/adel/ros2_ws/build/minigirona_stonefish -- -j12 -l12
+[115.416s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adel/ros2_ws/build/minigirona_stonefish' returned '0': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_minigirona:/home/adel/ros2_ws/install/minigirona_description:/home/adel/ros2_ws/install/cola2_control:/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_minigirona:/home/adel/ros2_ws/install/minigirona_description:/home/adel/ros2_ws/install/cola2_control:/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/stonefish_ros2:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:/home/adel/ros2_ws/install/stonefish_ros2/lib:/home/adel/ros2_ws/install/cola2_msgs/lib:/home/adel/ros2_ws/install/cola2_lib/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/adel/ros2_ws/install/cola2_control/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/adel/ros2_ws/build/minigirona_stonefish -- -j12 -l12
+[115.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adel/ros2_ws/build/minigirona_stonefish': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_minigirona:/home/adel/ros2_ws/install/minigirona_description:/home/adel/ros2_ws/install/cola2_control:/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_minigirona:/home/adel/ros2_ws/install/minigirona_description:/home/adel/ros2_ws/install/cola2_control:/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/stonefish_ros2:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:/home/adel/ros2_ws/install/stonefish_ros2/lib:/home/adel/ros2_ws/install/cola2_msgs/lib:/home/adel/ros2_ws/install/cola2_lib/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/adel/ros2_ws/install/cola2_control/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/adel/ros2_ws/build/minigirona_stonefish
+[115.675s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minigirona_stonefish)
+[115.675s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/minigirona_stonefish' for CMake module files
+[115.676s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adel/ros2_ws/build/minigirona_stonefish' returned '0': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_minigirona:/home/adel/ros2_ws/install/minigirona_description:/home/adel/ros2_ws/install/cola2_control:/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_minigirona:/home/adel/ros2_ws/install/minigirona_description:/home/adel/ros2_ws/install/cola2_control:/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/stonefish_ros2:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:/home/adel/ros2_ws/install/stonefish_ros2/lib:/home/adel/ros2_ws/install/cola2_msgs/lib:/home/adel/ros2_ws/install/cola2_lib/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/adel/ros2_ws/install/cola2_control/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/adel/ros2_ws/build/minigirona_stonefish
+[115.676s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/minigirona_stonefish' for CMake config files
+[115.676s] Level 1:colcon.colcon_core.shell:create_environment_hook('minigirona_stonefish', 'cmake_prefix_path')
+[115.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/hook/cmake_prefix_path.ps1'
+[115.677s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/hook/cmake_prefix_path.dsv'
+[115.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/hook/cmake_prefix_path.sh'
+[115.677s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/minigirona_stonefish/lib'
+[115.677s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/minigirona_stonefish/bin'
+[115.677s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/minigirona_stonefish/lib/pkgconfig/minigirona_stonefish.pc'
+[115.677s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/minigirona_stonefish/lib/python3.10/site-packages'
+[115.677s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/minigirona_stonefish/bin'
+[115.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/package.ps1'
+[115.678s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/package.dsv'
+[115.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/package.sh'
+[115.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/package.bash'
+[115.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/package.zsh'
+[115.679s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adel/ros2_ws/install/minigirona_stonefish/share/colcon-core/packages/minigirona_stonefish)
+[115.679s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minigirona_stonefish)
+[115.679s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/minigirona_stonefish' for CMake module files
+[115.679s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/minigirona_stonefish' for CMake config files
+[115.680s] Level 1:colcon.colcon_core.shell:create_environment_hook('minigirona_stonefish', 'cmake_prefix_path')
+[115.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/hook/cmake_prefix_path.ps1'
+[115.680s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/hook/cmake_prefix_path.dsv'
+[115.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/hook/cmake_prefix_path.sh'
+[115.680s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/minigirona_stonefish/lib'
+[115.680s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/minigirona_stonefish/bin'
+[115.680s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/minigirona_stonefish/lib/pkgconfig/minigirona_stonefish.pc'
+[115.681s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/minigirona_stonefish/lib/python3.10/site-packages'
+[115.681s] Level 1:colcon.colcon_core.environment:checking '/home/adel/ros2_ws/install/minigirona_stonefish/bin'
+[115.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/package.ps1'
+[115.681s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/package.dsv'
+[115.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/package.sh'
+[115.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/package.bash'
+[115.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/package.zsh'
+[115.682s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adel/ros2_ws/install/minigirona_stonefish/share/colcon-core/packages/minigirona_stonefish)
+[115.682s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[115.682s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[115.682s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[115.682s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[115.688s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[115.688s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[115.688s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[115.696s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[115.696s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adel/ros2_ws/install/local_setup.ps1'
+[115.697s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/adel/ros2_ws/install/_local_setup_util_ps1.py'
+[115.698s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adel/ros2_ws/install/setup.ps1'
+[115.698s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adel/ros2_ws/install/local_setup.sh'
+[115.699s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/adel/ros2_ws/install/_local_setup_util_sh.py'
+[115.699s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adel/ros2_ws/install/setup.sh'
+[115.699s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adel/ros2_ws/install/local_setup.bash'
+[115.700s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adel/ros2_ws/install/setup.bash'
+[115.700s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adel/ros2_ws/install/local_setup.zsh'
+[115.700s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adel/ros2_ws/install/setup.zsh'

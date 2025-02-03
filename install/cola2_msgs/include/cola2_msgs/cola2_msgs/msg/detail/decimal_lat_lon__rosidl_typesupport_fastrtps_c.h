@@ -1,0 +1,1 @@
+/home/adel/ros2_ws/build/cola2_msgs/rosidl_typesupport_fastrtps_c/cola2_msgs/msg/detail/decimal_lat_lon__rosidl_typesupport_fastrtps_c.h

@@ -1,0 +1,46 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from cola2_msgs/msg/ImageAcquisitionSettings.msg
+// generated code does not contain a copyright notice
+
+#include "cola2_msgs/msg/KeyValue.idl"
+#include "std_msgs/msg/Header.idl"
+
+module cola2_msgs {
+  module msg {
+    struct ImageAcquisitionSettings {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Exposure time in us (microseonds)")
+      uint32 exposure_time;
+
+      @verbatim (language="comment", text=
+        "Gain in dB")
+      double gain;
+
+      @verbatim (language="comment", text=
+        "White balance blue ratio")
+      double blue_ratio;
+
+      @verbatim (language="comment", text=
+        "White balance red ratio")
+      double red_ratio;
+
+      @verbatim (language="comment", text=
+        "Focus distance (m)")
+      double focus;
+
+      @verbatim (language="comment", text=
+        "Aperture (f/#)")
+      double aperture;
+
+      @verbatim (language="comment", text=
+        "Focal length according to lens manufacturer (mm)")
+      double focal_length;
+
+      @verbatim (language="comment", text=
+        "Extra information")
+      sequence<cola2_msgs::msg::KeyValue> extra;
+    };
+  };
+};

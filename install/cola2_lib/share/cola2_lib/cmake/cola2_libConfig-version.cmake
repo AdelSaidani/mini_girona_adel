@@ -1,0 +1,1 @@
+/home/adel/ros2_ws/build/cola2_lib/ament_cmake_core/cola2_libConfig-version.cmake

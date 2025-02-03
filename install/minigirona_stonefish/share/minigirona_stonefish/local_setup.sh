@@ -1,0 +1,1 @@
+/home/adel/ros2_ws/build/minigirona_stonefish/ament_cmake_environment_hooks/local_setup.sh

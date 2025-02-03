@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5ce181416653bbfab42a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cola2_lib",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cola2_comms::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cola2_comms-2d2713dd7b5bae5bbe77.json",
+					"name" : "cola2_comms",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cola2_io::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cola2_io-67220db2c5d61509facd.json",
+					"name" : "cola2_io",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cola2_lib_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cola2_lib_uninstall-f54edaa0ceff9b673db8.json",
+					"name" : "cola2_lib_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cola2_mission::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cola2_mission-ae84ac75a58218ed7119.json",
+					"name" : "cola2_mission",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cola2_utils::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cola2_utils-c1e757921f492cd9f887.json",
+					"name" : "cola2_utils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cola2_wmm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cola2_wmm-e8becff7230c476bde46.json",
+					"name" : "cola2_wmm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cola2_wmmc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cola2_wmmc-be82946e54fe3aae60a1.json",
+					"name" : "cola2_wmmc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-de053666bd49adddee68.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/adel/ros2_ws/build/cola2_lib",
+		"source" : "/home/adel/ros2_ws/src/cola2_lib"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

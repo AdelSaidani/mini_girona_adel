@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libcola2_wmm.so -o libcola2_wmm.so CMakeFiles/cola2_wmm.dir/src/cola2_lib/wmm/wmm.cpp.o  -Wl,-rpath,/home/adel/ros2_ws/build/cola2_lib:::::: libcola2_wmmc.so 

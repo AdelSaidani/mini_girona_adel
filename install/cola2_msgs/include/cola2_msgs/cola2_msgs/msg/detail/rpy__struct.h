@@ -1,0 +1,1 @@
+/home/adel/ros2_ws/build/cola2_msgs/rosidl_generator_c/cola2_msgs/msg/detail/rpy__struct.h

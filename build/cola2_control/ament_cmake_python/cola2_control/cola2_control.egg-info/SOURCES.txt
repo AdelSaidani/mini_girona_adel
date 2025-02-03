@@ -1,0 +1,7 @@
+setup.py
+cola2_control/__init__.py
+cola2_control/joystickbase.py
+cola2_control.egg-info/PKG-INFO
+cola2_control.egg-info/SOURCES.txt
+cola2_control.egg-info/dependency_links.txt
+cola2_control.egg-info/top_level.txt

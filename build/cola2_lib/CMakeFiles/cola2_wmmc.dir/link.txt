@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libcola2_wmmc.so -o libcola2_wmmc.so CMakeFiles/cola2_wmmc.dir/src/cola2_lib/wmmc/GeomagnetismLibrary.c.o CMakeFiles/cola2_wmmc.dir/src/cola2_lib/wmmc/wmm.c.o  -Wl,-rpath,:::::::::::::::::::::::::::::::::::::::: 

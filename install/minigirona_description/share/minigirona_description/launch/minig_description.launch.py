@@ -1,0 +1,1 @@
+/home/adel/ros2_ws/src/minigirona_description/launch/minig_description.launch.py

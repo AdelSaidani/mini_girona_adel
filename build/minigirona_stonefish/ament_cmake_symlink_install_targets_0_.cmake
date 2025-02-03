@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/adel/ros2_ws/build/minigirona_stonefish/minigirona_stonefish_node" "TARGETS" "minigirona_stonefish_node" "DESTINATION" "lib/minigirona_stonefish")

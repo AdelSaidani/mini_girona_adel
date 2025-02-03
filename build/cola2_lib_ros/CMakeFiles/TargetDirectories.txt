@@ -1,0 +1,10 @@
+/home/adel/ros2_ws/build/cola2_lib_ros/CMakeFiles/uninstall.dir
+/home/adel/ros2_ws/build/cola2_lib_ros/CMakeFiles/cola2_lib_ros_uninstall.dir
+/home/adel/ros2_ws/build/cola2_lib_ros/CMakeFiles/cola2_ros.dir
+/home/adel/ros2_ws/build/cola2_lib_ros/CMakeFiles/test.dir
+/home/adel/ros2_ws/build/cola2_lib_ros/CMakeFiles/edit_cache.dir
+/home/adel/ros2_ws/build/cola2_lib_ros/CMakeFiles/rebuild_cache.dir
+/home/adel/ros2_ws/build/cola2_lib_ros/CMakeFiles/list_install_components.dir
+/home/adel/ros2_ws/build/cola2_lib_ros/CMakeFiles/install.dir
+/home/adel/ros2_ws/build/cola2_lib_ros/CMakeFiles/install/local.dir
+/home/adel/ros2_ws/build/cola2_lib_ros/CMakeFiles/install/strip.dir

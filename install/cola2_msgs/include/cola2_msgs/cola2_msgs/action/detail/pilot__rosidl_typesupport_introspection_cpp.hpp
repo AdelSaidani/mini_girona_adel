@@ -1,0 +1,1 @@
+/home/adel/ros2_ws/build/cola2_msgs/rosidl_typesupport_introspection_cpp/cola2_msgs/action/detail/pilot__rosidl_typesupport_introspection_cpp.hpp

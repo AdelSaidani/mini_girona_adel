@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<robot name="minigirona" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Arguments -->
+  <!--
+    The robot_namespace argument has to be set mandatory by the user when calling the xacro
+    file or using the following line to set it as default.
+    <xacro:arg name="robot_namespace" default="minig"/>
+  -->
+  <xacro:arg name="robot_xacro" default="$(find minigirona_description)/urdf/core.urdf.xacro"/>
+
+  <!-- Load basic minigirona urdf -->
+  <xacro:include filename="$(arg robot_xacro)"/>
+
+
+  <!-- multibeam -->
+  <!-- <xacro:add_to_base_link_no_mesh element="multibeam">
+    <origin rpy="0.000000 -1.570796 0.000000" xyz="0.400000 0.000000 0.500000"/>
+  </xacro:add_to_base_link_no_mesh> -->
+</robot>

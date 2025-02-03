@@ -1,0 +1,1 @@
+/home/adel/ros2_ws/build/cola2_msgs/rosidl_typesupport_introspection_c/cola2_msgs/srv/detail/max_joy_velocity__rosidl_typesupport_introspection_c.h

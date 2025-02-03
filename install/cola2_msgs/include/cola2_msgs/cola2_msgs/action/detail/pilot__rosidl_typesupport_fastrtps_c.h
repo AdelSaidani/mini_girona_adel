@@ -1,0 +1,1 @@
+/home/adel/ros2_ws/build/cola2_msgs/rosidl_typesupport_fastrtps_c/cola2_msgs/action/detail/pilot__rosidl_typesupport_fastrtps_c.h

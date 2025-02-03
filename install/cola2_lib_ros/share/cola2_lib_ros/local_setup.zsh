@@ -1,0 +1,1 @@
+/home/adel/ros2_ws/build/cola2_lib_ros/ament_cmake_environment_hooks/local_setup.zsh

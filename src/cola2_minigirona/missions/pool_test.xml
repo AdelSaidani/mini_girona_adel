@@ -1,0 +1,29 @@
+<mission>
+  <version>2.0</version>
+  <mission_step>
+    <maneuver type="goto">
+      <final_latitude>41.9674245</final_latitude>
+      <final_longitude>2.8361531</final_longitude>
+      <final_depth>4.0</final_depth>
+      <final_altitude>0.0</final_altitude>
+      <heave_mode>0</heave_mode>
+      <surge_velocity>0.5</surge_velocity>
+      <tolerance_xy>2.0</tolerance_xy>
+      <no_altitude_goes_up>false</no_altitude_goes_up>
+    </maneuver>
+  </mission_step>
+  <mission_step>
+    <maneuver type="park">
+      <final_latitude>41.9674245</final_latitude>
+      <final_longitude>2.8361531</final_longitude>
+      <final_depth>4.0</final_depth>
+      <final_altitude>0.0</final_altitude>
+      <final_yaw>0</final_yaw>
+      <use_yaw>false</use_yaw>
+      <heave_mode>0</heave_mode>
+      <surge_velocity>0.5</surge_velocity>
+      <time>23.0</time>
+      <no_altitude_goes_up>false</no_altitude_goes_up>
+    </maneuver>
+  </mission_step>
+</mission>

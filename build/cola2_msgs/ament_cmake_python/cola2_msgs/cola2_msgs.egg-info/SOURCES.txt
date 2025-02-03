@@ -1,0 +1,6 @@
+setup.py
+cola2_msgs/__init__.py
+cola2_msgs.egg-info/PKG-INFO
+cola2_msgs.egg-info/SOURCES.txt
+cola2_msgs.egg-info/dependency_links.txt
+cola2_msgs.egg-info/top_level.txt

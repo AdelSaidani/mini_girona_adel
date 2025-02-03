@@ -1,0 +1,9 @@
+/home/adel/ros2_ws/build/cola2_minigirona/CMakeFiles/uninstall.dir
+/home/adel/ros2_ws/build/cola2_minigirona/CMakeFiles/cola2_minigirona_uninstall.dir
+/home/adel/ros2_ws/build/cola2_minigirona/CMakeFiles/test.dir
+/home/adel/ros2_ws/build/cola2_minigirona/CMakeFiles/edit_cache.dir
+/home/adel/ros2_ws/build/cola2_minigirona/CMakeFiles/rebuild_cache.dir
+/home/adel/ros2_ws/build/cola2_minigirona/CMakeFiles/list_install_components.dir
+/home/adel/ros2_ws/build/cola2_minigirona/CMakeFiles/install.dir
+/home/adel/ros2_ws/build/cola2_minigirona/CMakeFiles/install/local.dir
+/home/adel/ros2_ws/build/cola2_minigirona/CMakeFiles/install/strip.dir

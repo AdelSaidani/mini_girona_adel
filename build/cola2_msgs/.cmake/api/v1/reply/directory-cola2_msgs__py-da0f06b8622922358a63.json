@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "cola2_msgs__py",
+		"source" : "/home/adel/ros2_ws/build/cola2_msgs/cola2_msgs__py"
+	}
+}

@@ -1,0 +1,1 @@
+/home/adel/ros2_ws/build/cola2_msgs/rosidl_typesupport_introspection_c/cola2_msgs/msg/detail/rpy__rosidl_typesupport_introspection_c.h

@@ -1,0 +1,34 @@
+# This is a sample build configuration for C++ Make.
+# Check our guides at https://confluence.atlassian.com/x/5Q4SMw for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+
+complieScript: &compileScript
+  script:
+    - mkdir build
+    - cd build
+    - mkdir -p /home/user/cola2_lib_install
+    - cmake -DCMAKE_INSTALL_PREFIX=/home/user/cola2_lib_install ..
+    - make -j4
+    - make install
+
+ubuntu20Step: &ubuntu20Step
+  step:
+    # size: 2x # all steps in this repo get 8GB of memory
+    name: Build Ubuntu 20.04
+    image:
+      name: iquarobotics/cola2:noetic
+      username: $DOCKER_HUB_USERNAME
+      password: $DOCKER_HUB_PASSWORD
+      email: $DOCKER_HUB_EMAIL
+    <<: *compileScript
+
+pipelines:
+  custom:
+    ubuntuBuildAll:
+      - <<: *ubuntu20Step
+
+  branches:
+    "{release/*,hotfix/*,master}":
+      - <<: *ubuntu20Step

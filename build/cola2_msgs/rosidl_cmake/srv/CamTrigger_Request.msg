@@ -1,0 +1,4 @@
+float64 intensity1
+float64 intensity2
+bool cam1
+bool cam2

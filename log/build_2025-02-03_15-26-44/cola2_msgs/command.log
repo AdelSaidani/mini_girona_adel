@@ -1,0 +1,6 @@
+Invoking command in '/home/adel/ros2_ws/build/cola2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adel/ros2_ws/src/cola2_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adel/ros2_ws/install/cola2_msgs
+Invoked command in '/home/adel/ros2_ws/build/cola2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adel/ros2_ws/src/cola2_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adel/ros2_ws/install/cola2_msgs
+Invoking command in '/home/adel/ros2_ws/build/cola2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adel/ros2_ws/build/cola2_msgs -- -j12 -l12
+Invoked command in '/home/adel/ros2_ws/build/cola2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adel/ros2_ws/build/cola2_msgs -- -j12 -l12
+Invoking command in '/home/adel/ros2_ws/build/cola2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adel/ros2_ws/build/cola2_msgs
+Invoked command in '/home/adel/ros2_ws/build/cola2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adel/ros2_ws/build/cola2_msgs

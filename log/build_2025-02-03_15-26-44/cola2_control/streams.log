@@ -1,0 +1,168 @@
+[0.016s] Invoking command in '/home/adel/ros2_ws/build/cola2_control': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/stonefish_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/adel/ros2_ws/src/cola2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adel/ros2_ws/install/cola2_control
+[0.075s] -- The C compiler identification is GNU 11.4.0
+[0.143s] -- The CXX compiler identification is GNU 11.4.0
+[0.153s] -- Detecting C compiler ABI info
+[0.238s] -- Detecting C compiler ABI info - done
+[0.246s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.246s] -- Detecting C compile features
+[0.246s] -- Detecting C compile features - done
+[0.250s] -- Detecting CXX compiler ABI info
+[0.350s] -- Detecting CXX compiler ABI info - done
+[0.359s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.359s] -- Detecting CXX compile features
+[0.360s] -- Detecting CXX compile features - done
+[0.362s] -- COLA2_LIB found version 24.1.1
+[0.362s] -- COLA2_LIB include directories: /home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/../../include/cola2_lib;/usr/include;/usr/include/eigen3
+[0.362s] -- COLA2_LIB libraries: cola2_io;cola2_utils;cola2_mission;cola2_comms;cola2_wmmc;cola2_wmm
+[0.362s] -- Including COLA2_LIB include directories
+[0.568s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread date_time filesystem 
+[0.584s] -- Found TinyXML: /usr/lib/x86_64-linux-gnu/libtinyxml.so  
+[0.585s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.587s] -- Found ament_cmake_core: 1.3.11 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[0.777s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.854s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.858s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.865s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.927s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.963s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[0.964s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.017s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.020s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.128s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.159s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.204s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.213s] -- Found Threads: TRUE  
+[1.270s] -- Found tf2: 0.25.11 (/opt/ros/humble/share/tf2/cmake)
+[1.296s] -- Found tf2_ros: 0.25.11 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.394s] -- Found tf2_geometry_msgs: 0.25.11 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.402s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.403s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.403s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.406s] -- Found tf2_eigen: 0.25.11 (/opt/ros/humble/share/tf2_eigen/cmake)
+[1.410s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[1.421s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.441s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.465s] -- Found diagnostic_msgs: 4.2.4 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[1.481s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.499s] -- Found cola2_msgs: 24.1.0 (/home/adel/ros2_ws/install/cola2_msgs/share/cola2_msgs/cmake)
+[1.546s] -- Found cola2_lib_ros: 24.1.2 (/home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/cmake)
+[1.567s] -- Found cola2_lib: 1.0.0 (/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/cmake)
+[1.863s] -- Configuring done
+[1.973s] -- Generating done
+[1.995s] -- Build files have been written to: /home/adel/ros2_ws/build/cola2_control
+[2.008s] Invoked command in '/home/adel/ros2_ws/build/cola2_control' returned '0': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/stonefish_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/adel/ros2_ws/src/cola2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adel/ros2_ws/install/cola2_control
+[2.010s] Invoking command in '/home/adel/ros2_ws/build/cola2_control': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/stonefish_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/adel/ros2_ws/build/cola2_control -- -j12 -l12
+[2.067s] [  4%] [32mBuilding CXX object CMakeFiles/cola2_control.dir/src/cola2_control/controllers/section.cpp.o[0m
+[2.067s] [  9%] [32mBuilding CXX object CMakeFiles/cola2_control.dir/src/cola2_control/controllers/holonomic_keep_position.cpp.o[0m
+[2.067s] [ 18%] [32mBuilding CXX object CMakeFiles/cola2_control.dir/src/cola2_control/low_level_controllers/ndof_controller.cpp.o[0m
+[2.068s] [ 22%] [32mBuilding CXX object CMakeFiles/cola2_control.dir/src/cola2_control/low_level_controllers/merge.cpp.o[0m
+[2.069s] [ 22%] [32mBuilding CXX object CMakeFiles/cola2_control.dir/src/cola2_control/controllers/anchor.cpp.o[0m
+[2.069s] [ 27%] [32mBuilding CXX object CMakeFiles/cola2_control.dir/src/cola2_control/low_level_controllers/controller_base.cpp.o[0m
+[2.069s] [ 31%] [32mBuilding CXX object CMakeFiles/cola2_control.dir/src/cola2_control/low_level_controllers/only_thruster_allocator.cpp.o[0m
+[2.069s] [ 36%] [32mBuilding CXX object CMakeFiles/cola2_control.dir/src/cola2_control/low_level_controllers/auv_controller_base.cpp.o[0m
+[2.071s] [ 40%] [32mBuilding CXX object CMakeFiles/cola2_control.dir/src/cola2_control/low_level_controllers/only_thrusters_controller.cpp.o[0m
+[2.078s] [ 45%] [32mBuilding CXX object CMakeFiles/cola2_control.dir/src/cola2_control/low_level_controllers/poly.cpp.o[0m
+[2.082s] [ 50%] [32mBuilding CXX object CMakeFiles/cola2_control.dir/src/cola2_control/low_level_controllers/pid.cpp.o[0m
+[2.085s] [ 50%] Built target ament_cmake_python_symlink_cola2_control
+[2.097s] [ 54%] [32mBuilding CXX object CMakeFiles/cola2_control.dir/src/cola2_control/low_level_controllers/request.cpp.o[0m
+[3.008s] [ 59%] [32mBuilding CXX object CMakeFiles/cola2_control.dir/src/cola2_control/ros_controller/auv_ros_controller.cpp.o[0m
+[3.740s] running egg_info
+[3.742s] creating cola2_control.egg-info
+[3.743s] writing cola2_control.egg-info/PKG-INFO
+[3.744s] writing dependency_links to cola2_control.egg-info/dependency_links.txt
+[3.745s] writing top-level names to cola2_control.egg-info/top_level.txt
+[3.745s] writing manifest file 'cola2_control.egg-info/SOURCES.txt'
+[3.752s] reading manifest file 'cola2_control.egg-info/SOURCES.txt'
+[3.753s] writing manifest file 'cola2_control.egg-info/SOURCES.txt'
+[3.798s] [ 59%] Built target ament_cmake_python_build_cola2_control_egg
+[8.068s] [01m[K/home/adel/ros2_ws/src/cola2_control/src/cola2_control/ros_controller/auv_ros_controller.cpp:[m[K In member function ‘[01m[Kvoid IAUVROSController::publishThrusterSetpoint(Eigen::VectorXd, rclcpp::Time)[m[K’:
+[8.068s] [01m[K/home/adel/ros2_ws/src/cola2_control/src/cola2_control/ros_controller/auv_ros_controller.cpp:355:100:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Know[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.068s]   355 | void IAUVROSController::publishThrusterSetpoint(const Eigen::VectorXd setpoint, [01;35m[Kconst rclcpp::Time now[m[K)
+[8.068s]       |                                                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[21.971s] [ 63%] [32m[1mLinking CXX static library libcola2_control.a[0m
+[22.287s] [ 63%] Built target cola2_control
+[22.302s] [ 72%] [32mBuilding CXX object CMakeFiles/teleoperation_node.dir/src/teleoperation_node.cpp.o[0m
+[22.302s] [ 72%] [32mBuilding CXX object CMakeFiles/controller_node.dir/src/controller_node.cpp.o[0m
+[22.304s] [ 77%] [32mBuilding CXX object CMakeFiles/pilot_node.dir/src/pilot_node.cpp.o[0m
+[22.305s] [ 81%] [32mBuilding CXX object CMakeFiles/captain_node.dir/src/captain_node.cpp.o[0m
+[26.181s] [01m[K/home/adel/ros2_ws/src/cola2_control/src/controller_node.cpp:[m[K In member function ‘[01m[Kvoid OnlyThrustersROSController::init(std::shared_ptr<OnlyThrustersController>, const double&)[m[K’:
+[26.182s] [01m[K/home/adel/ros2_ws/src/cola2_control/src/controller_node.cpp:71:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[26.182s]    71 |     for (int i = 1; [01;35m[Ki <= auv_controller_->getNumberofThrusters()[m[K; ++i)
+[26.182s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[26.286s] [01m[K/home/adel/ros2_ws/src/cola2_control/src/pilot_node.cpp:[m[K In member function ‘[01m[Kbool Pilot::reloadParamsCallback(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)[m[K’:
+[26.286s] [01m[K/home/adel/ros2_ws/src/cola2_control/src/pilot_node.cpp:531:130:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[26.287s]   531 | bool Pilot::reloadParamsCallback(const std::shared_ptr<rmw_request_id_t>, [01;35m[Kconst std::shared_ptr<std_srvs::srv::Trigger::Request> req[m[K, std::shared_ptr<std_srvs::srv::Trigger::Response> res)
+[26.287s]       |                                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[26.504s] [01m[K/home/adel/ros2_ws/src/cola2_control/src/captain_node.cpp:[m[K In member function ‘[01m[Kvoid Captain::updateNoAltitudeGoesUp(bool, double)[m[K’:
+[26.504s] [01m[K/home/adel/ros2_ws/src/cola2_control/src/captain_node.cpp:688:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kno_altitude_goes_up[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[26.505s]   688 | void Captain::updateNoAltitudeGoesUp([01;35m[Kconst bool no_altitude_goes_up[m[K, const double wait_time)
+[26.505s]       |                                      [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[26.505s] [01m[K/home/adel/ros2_ws/src/cola2_control/src/captain_node.cpp:688:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kwait_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[26.506s]   688 | void Captain::updateNoAltitudeGoesUp(const bool no_altitude_goes_up, [01;35m[Kconst double wait_time[m[K)
+[26.506s]       |                                                                      [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[27.858s] [ 86%] [32m[1mLinking CXX executable controller_node[0m
+[30.359s] [ 86%] Built target controller_node
+[36.370s] [ 90%] [32m[1mLinking CXX executable pilot_node[0m
+[37.663s] [ 90%] Built target pilot_node
+[41.465s] [ 95%] [32m[1mLinking CXX executable teleoperation_node[0m
+[41.540s] [100%] [32m[1mLinking CXX executable captain_node[0m
+[43.201s] [100%] Built target captain_node
+[43.539s] [100%] Built target teleoperation_node
+[43.549s] Invoked command in '/home/adel/ros2_ws/build/cola2_control' returned '0': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/stonefish_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/adel/ros2_ws/build/cola2_control -- -j12 -l12
+[43.550s] Invoking command in '/home/adel/ros2_ws/build/cola2_control': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/stonefish_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/adel/ros2_ws/build/cola2_control
+[43.556s] -- Install configuration: ""
+[43.556s] -- Execute custom install script
+[43.556s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/lib/cola2_control/libcola2_control.a
+[43.566s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/lib/cola2_control/captain_node
+[43.578s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/lib/cola2_control/controller_node
+[43.586s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/lib/cola2_control/pilot_node
+[43.593s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/lib/cola2_control/teleoperation_node
+[43.603s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/include/cola2_control/controllers/anchor.h
+[43.610s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/include/cola2_control/controllers/holonomic_keep_position.h
+[43.617s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/include/cola2_control/controllers/section.h
+[43.625s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/include/cola2_control/controllers/types.h
+[43.634s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/include/cola2_control/low_level_controllers/auv_controller_base.h
+[43.640s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/include/cola2_control/low_level_controllers/controller_base.h
+[43.649s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/include/cola2_control/low_level_controllers/merge.h
+[43.655s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/include/cola2_control/low_level_controllers/ndof_controller.h
+[43.664s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/include/cola2_control/low_level_controllers/only_thruster_allocator.h
+[43.670s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/include/cola2_control/low_level_controllers/only_thrusters_controller.h
+[43.677s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/include/cola2_control/low_level_controllers/pid.h
+[43.686s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/include/cola2_control/low_level_controllers/poly.h
+[43.694s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/include/cola2_control/low_level_controllers/request.h
+[43.701s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/include/cola2_control/ros_controller/auv_ros_controller_base.h
+[43.708s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/cfg/controller.cfg
+[43.714s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/config/captain.yaml
+[43.720s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/config/controller.yaml
+[43.726s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/config/logitech_fx10_to_teleoperation.yaml
+[43.732s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/config/pilot.yaml
+[43.738s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/config/teleoperation.yaml
+[43.744s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/launch/control.launch.py
+[43.750s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/environment/pythonpath.sh
+[43.756s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/environment/pythonpath.dsv
+[43.763s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/local/lib/python3.10/dist-packages/cola2_control-24.1.4-py3.10.egg-info/PKG-INFO
+[43.769s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/local/lib/python3.10/dist-packages/cola2_control-24.1.4-py3.10.egg-info/SOURCES.txt
+[43.775s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/local/lib/python3.10/dist-packages/cola2_control-24.1.4-py3.10.egg-info/dependency_links.txt
+[43.781s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/local/lib/python3.10/dist-packages/cola2_control-24.1.4-py3.10.egg-info/top_level.txt
+[43.787s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/local/lib/python3.10/dist-packages/cola2_control/__init__.py
+[43.793s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/local/lib/python3.10/dist-packages/cola2_control/joystickbase.py
+[43.799s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/lib/cola2_control/logitech_fx10_to_teleoperation_node.py
+[43.805s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/share/ament_index/resource_index/package_run_dependencies/cola2_control
+[43.811s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/share/ament_index/resource_index/parent_prefix_path/cola2_control
+[43.817s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/environment/ament_prefix_path.sh
+[43.823s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/environment/ament_prefix_path.dsv
+[43.829s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/environment/path.sh
+[43.835s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/environment/path.dsv
+[43.842s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/local_setup.bash
+[43.850s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/local_setup.sh
+[43.857s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/local_setup.zsh
+[43.864s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/local_setup.dsv
+[43.871s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/package.dsv
+[43.877s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/share/ament_index/resource_index/packages/cola2_control
+[43.884s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/cmake/cola2_controlConfig.cmake
+[43.893s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/cmake/cola2_controlConfig-version.cmake
+[43.900s] -- Symlinking: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/package.xml
+[43.933s] Listing '/home/adel/ros2_ws/install/cola2_control/local/lib/python3.10/dist-packages/cola2_control'...
+[43.933s] Compiling '/home/adel/ros2_ws/install/cola2_control/local/lib/python3.10/dist-packages/cola2_control/__init__.py'...
+[43.933s] Compiling '/home/adel/ros2_ws/install/cola2_control/local/lib/python3.10/dist-packages/cola2_control/joystickbase.py'...
+[43.938s] Invoked command in '/home/adel/ros2_ws/build/cola2_control' returned '0': AMENT_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_lib:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}/cmake:/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/stonefish_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/adel/ros2_ws/build/cola2_control

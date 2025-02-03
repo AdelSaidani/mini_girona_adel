@@ -1,0 +1,1 @@
+/home/adel/ros2_ws/build/cola2_msgs/ament_cmake_python/cola2_msgs/cola2_msgs.egg-info/SOURCES.txt

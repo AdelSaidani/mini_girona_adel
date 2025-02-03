@@ -1,0 +1,4 @@
+source;share/minigirona_stonefish/local_setup.bash
+source;share/minigirona_stonefish/local_setup.dsv
+source;share/minigirona_stonefish/local_setup.sh
+source;share/minigirona_stonefish/local_setup.zsh

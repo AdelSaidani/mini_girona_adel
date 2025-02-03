@@ -1,0 +1,48 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from cola2_msgs/msg/FlsConfig.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module cola2_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message must be tied to a sensor_msgs/Image message that contains the corresponding polar image. The header " "\n"
+      "timestamp of both messages must be exactly the same." "\n"
+      "The polar image's first row must correspond to the farthest return sample, with the last row being the closest return" "\n"
+      "sample." "\n"
+      "The polar image's first column must correspond to the leftmost beam from the POV of the FLS sensor (negative angle " "\n"
+      "value), with the last column being the rightmost beam (positive angle value).")
+    struct FlsConfig {
+      std_msgs::msg::Header header;
+
+      uint32 num_beams;
+
+      uint32 num_samples;
+
+      @verbatim (language="comment", text=
+        "In meters.")
+      double window_start;
+
+      @verbatim (language="comment", text=
+        "In meters")
+      double window_end;
+
+      @verbatim (language="comment", text=
+        "In radians")
+      sequence<float> beams_bearings;
+
+      @verbatim (language="comment", text=
+        "In m/s")
+      double speed_of_sound;
+
+      @verbatim (language="comment", text=
+        "In Hz")
+      double ping_rate;
+
+      @verbatim (language="comment", text=
+        "In Hz")
+      double frequency;
+    };
+  };
+};

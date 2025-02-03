@@ -1,0 +1,4 @@
+source;share/cola2_lib/local_setup.bash
+source;share/cola2_lib/local_setup.dsv
+source;share/cola2_lib/local_setup.sh
+source;share/cola2_lib/local_setup.zsh

@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from cola2_msgs/srv/CamTrigger.srv
+// generated code does not contain a copyright notice
+
+
+module cola2_msgs {
+  module srv {
+    struct CamTrigger_Request {
+      double intensity1;
+
+      double intensity2;
+
+      boolean cam1;
+
+      boolean cam2;
+    };
+    struct CamTrigger_Response {
+      boolean success;
+    };
+  };
+};

@@ -1,0 +1,10 @@
+/home/adel/ros2_ws/build/minigirona_stonefish/CMakeFiles/uninstall.dir
+/home/adel/ros2_ws/build/minigirona_stonefish/CMakeFiles/minigirona_stonefish_uninstall.dir
+/home/adel/ros2_ws/build/minigirona_stonefish/CMakeFiles/minigirona_stonefish_node.dir
+/home/adel/ros2_ws/build/minigirona_stonefish/CMakeFiles/test.dir
+/home/adel/ros2_ws/build/minigirona_stonefish/CMakeFiles/edit_cache.dir
+/home/adel/ros2_ws/build/minigirona_stonefish/CMakeFiles/rebuild_cache.dir
+/home/adel/ros2_ws/build/minigirona_stonefish/CMakeFiles/list_install_components.dir
+/home/adel/ros2_ws/build/minigirona_stonefish/CMakeFiles/install.dir
+/home/adel/ros2_ws/build/minigirona_stonefish/CMakeFiles/install/local.dir
+/home/adel/ros2_ws/build/minigirona_stonefish/CMakeFiles/install/strip.dir

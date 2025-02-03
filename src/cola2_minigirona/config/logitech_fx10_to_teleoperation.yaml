@@ -1,0 +1,4 @@
+/**:
+  ros__parameters:
+    start_service: '/minigirona/captain/enable_keep_position_holonomic'
+    stop_service: '/minigirona/captain/disable_keep_position'

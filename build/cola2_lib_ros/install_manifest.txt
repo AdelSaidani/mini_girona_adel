@@ -1,0 +1,1 @@
+/home/adel/ros2_ws/install/cola2_lib_ros/lib/libcola2_ros.so

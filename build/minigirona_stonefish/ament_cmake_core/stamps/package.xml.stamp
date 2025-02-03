@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package format="3">
+    <name>minigirona_stonefish</name>
+    <version>1.3.0</version>
+    <description>The minigirona_stonefish package</description>
+    <author email="patryk.cieslak@udg.edu">Patryk Cieslak</author>
+    <maintainer email="patryk.cieslak@udg.edu">Patryk Cieslak</maintainer>
+    <license>GPL-3.0</license>
+
+    <buildtool_depend>ament_cmake</buildtool_depend>
+
+    <depend>stonefish_ros2</depend>
+    <depend>cola2_msgs</depend>
+    <depend>std_msgs</depend>
+    
+    <exec_depend>cola2_control</exec_depend>
+    <exec_depend>cola2_nav</exec_depend>
+    <exec_depend>cola2_log</exec_depend>
+    <exec_depend>cola2_safety</exec_depend>
+    <exec_depend>cola2_sim</exec_depend>
+    <exec_depend>cola2_lib_ros</exec_depend>
+
+    <exec_depend>ros2launch</exec_depend>
+    <exec_depend>xacro</exec_depend>
+    <exec_depend>cola2_minigirona</exec_depend>
+    <exec_depend>minigirona_description</exec_depend>
+    <!-- <exec_depend>girona500_description</exec_depend>
+    <exec_depend>sparus2_description</exec_depend>
+    <exec_depend>eca_5emicro_manipulator_description</exec_depend> -->
+
+    <export>
+        <build_type>ament_cmake</build_type>
+    </export>
+</package>

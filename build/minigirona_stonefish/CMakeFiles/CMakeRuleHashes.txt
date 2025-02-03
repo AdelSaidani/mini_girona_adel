@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+bc58f0e2f9c93954f9c5e7f3b0d6f94f CMakeFiles/minigirona_stonefish_uninstall

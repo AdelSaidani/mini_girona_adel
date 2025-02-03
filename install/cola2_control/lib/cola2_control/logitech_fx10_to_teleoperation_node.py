@@ -1,0 +1,1 @@
+/home/adel/ros2_ws/src/cola2_control/scripts/logitech_fx10_to_teleoperation_node.py

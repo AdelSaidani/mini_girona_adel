@@ -1,0 +1,1 @@
+/home/adel/ros2_ws/src/cola2_minigirona/launch/sim_core.launch.py

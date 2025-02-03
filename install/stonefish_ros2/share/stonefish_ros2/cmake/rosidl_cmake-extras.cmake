@@ -1,0 +1,1 @@
+/home/adel/ros2_ws/build/stonefish_ros2/rosidl_cmake/rosidl_cmake-extras.cmake

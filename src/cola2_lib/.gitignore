@@ -1,0 +1,17 @@
+# Files
+.project
+.pydevproject
+*~
+*.pyc
+*.user
+
+# Folders
+bin/
+build/
+msg_gen/
+srv_gen/
+doc/
+missions/
+.idea/
+cmake-build-debug/
+

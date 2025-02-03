@@ -1,0 +1,1 @@
+rclcpp;topic_tools;tf2;tf2_ros;tf2_geometry_msgs;tf2_eigen;joy;rosbridge_server;std_msgs;std_srvs;sensor_msgs;diagnostic_msgs;nav_msgs;rviz2;minigirona_description;ros2launch;ament_lint_auto;ament_lint_common

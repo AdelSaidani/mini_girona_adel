@@ -1,0 +1,1 @@
+/home/adel/ros2_ws/build/cola2_msgs/rosidl_generator_cpp/cola2_msgs/msg/detail/captain_state_feedback__type_support.hpp

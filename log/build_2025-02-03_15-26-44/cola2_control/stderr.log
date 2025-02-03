@@ -1,0 +1,19 @@
+[01m[K/home/adel/ros2_ws/src/cola2_control/src/cola2_control/ros_controller/auv_ros_controller.cpp:[m[K In member function ‘[01m[Kvoid IAUVROSController::publishThrusterSetpoint(Eigen::VectorXd, rclcpp::Time)[m[K’:
+[01m[K/home/adel/ros2_ws/src/cola2_control/src/cola2_control/ros_controller/auv_ros_controller.cpp:355:100:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Know[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  355 | void IAUVROSController::publishThrusterSetpoint(const Eigen::VectorXd setpoint, [01;35m[Kconst rclcpp::Time now[m[K)
+      |                                                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/adel/ros2_ws/src/cola2_control/src/controller_node.cpp:[m[K In member function ‘[01m[Kvoid OnlyThrustersROSController::init(std::shared_ptr<OnlyThrustersController>, const double&)[m[K’:
+[01m[K/home/adel/ros2_ws/src/cola2_control/src/controller_node.cpp:71:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   71 |     for (int i = 1; [01;35m[Ki <= auv_controller_->getNumberofThrusters()[m[K; ++i)
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adel/ros2_ws/src/cola2_control/src/pilot_node.cpp:[m[K In member function ‘[01m[Kbool Pilot::reloadParamsCallback(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/adel/ros2_ws/src/cola2_control/src/pilot_node.cpp:531:130:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  531 | bool Pilot::reloadParamsCallback(const std::shared_ptr<rmw_request_id_t>, [01;35m[Kconst std::shared_ptr<std_srvs::srv::Trigger::Request> req[m[K, std::shared_ptr<std_srvs::srv::Trigger::Response> res)
+      |                                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/adel/ros2_ws/src/cola2_control/src/captain_node.cpp:[m[K In member function ‘[01m[Kvoid Captain::updateNoAltitudeGoesUp(bool, double)[m[K’:
+[01m[K/home/adel/ros2_ws/src/cola2_control/src/captain_node.cpp:688:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kno_altitude_goes_up[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  688 | void Captain::updateNoAltitudeGoesUp([01;35m[Kconst bool no_altitude_goes_up[m[K, const double wait_time)
+      |                                      [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adel/ros2_ws/src/cola2_control/src/captain_node.cpp:688:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kwait_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  688 | void Captain::updateNoAltitudeGoesUp(const bool no_altitude_goes_up, [01;35m[Kconst double wait_time[m[K)
+      |                                                                      [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K

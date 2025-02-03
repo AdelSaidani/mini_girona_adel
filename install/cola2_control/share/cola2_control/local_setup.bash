@@ -1,0 +1,1 @@
+/home/adel/ros2_ws/build/cola2_control/ament_cmake_environment_hooks/local_setup.bash

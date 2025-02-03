@@ -1,0 +1,1 @@
+/home/adel/ros2_ws/build/cola2_lib/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake
