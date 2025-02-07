@@ -1,0 +1,65 @@
+[0.025s] Invoking command in '/home/adel/ros2_ws/build/minigirona_stonefish': CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_minigirona:/home/adel/ros2_ws/install/minigirona_description:/home/adel/ros2_ws/install/cola2_control:/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/stonefish_ros2:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/minigirona_stonefish:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:/home/adel/ros2_ws/install/stonefish_ros2/lib:/home/adel/ros2_ws/install/cola2_msgs/lib:/home/adel/ros2_ws/install/cola2_lib/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/adel/ros2_ws/src/minigirona_stonefish -DCMAKE_INSTALL_PREFIX=/home/adel/ros2_ws/install/minigirona_stonefish
+[0.039s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.186s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.194s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.225s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.227s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.233s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.244s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.257s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.293s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.294s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.404s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.457s] -- Found cola2_msgs: 24.1.0 (/home/adel/ros2_ws/install/cola2_msgs/share/cola2_msgs/cmake)
+[0.565s] -- Found stonefish_ros2: 1.3.0 (/home/adel/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/cmake)
+[0.679s] -- Configuring done
+[0.695s] -- Generating done
+[0.700s] -- Build files have been written to: /home/adel/ros2_ws/build/minigirona_stonefish
+[0.708s] Invoked command in '/home/adel/ros2_ws/build/minigirona_stonefish' returned '0': CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_minigirona:/home/adel/ros2_ws/install/minigirona_description:/home/adel/ros2_ws/install/cola2_control:/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/stonefish_ros2:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/minigirona_stonefish:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:/home/adel/ros2_ws/install/stonefish_ros2/lib:/home/adel/ros2_ws/install/cola2_msgs/lib:/home/adel/ros2_ws/install/cola2_lib/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/adel/ros2_ws/src/minigirona_stonefish -DCMAKE_INSTALL_PREFIX=/home/adel/ros2_ws/install/minigirona_stonefish
+[0.710s] Invoking command in '/home/adel/ros2_ws/build/minigirona_stonefish': CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_minigirona:/home/adel/ros2_ws/install/minigirona_description:/home/adel/ros2_ws/install/cola2_control:/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/stonefish_ros2:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/minigirona_stonefish:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:/home/adel/ros2_ws/install/stonefish_ros2/lib:/home/adel/ros2_ws/install/cola2_msgs/lib:/home/adel/ros2_ws/install/cola2_lib/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/adel/ros2_ws/build/minigirona_stonefish -- -j12 -l12
+[0.763s] [35m[1mConsolidate compiler generated dependencies of target minigirona_stonefish_node[0m
+[0.783s] [ 50%] [32mBuilding CXX object CMakeFiles/minigirona_stonefish_node.dir/src/minigirona_stonefish_node.cpp.o[0m
+[16.054s] [100%] [32m[1mLinking CXX executable minigirona_stonefish_node[0m
+[17.057s] [100%] Built target minigirona_stonefish_node
+[17.074s] Invoked command in '/home/adel/ros2_ws/build/minigirona_stonefish' returned '0': CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_minigirona:/home/adel/ros2_ws/install/minigirona_description:/home/adel/ros2_ws/install/cola2_control:/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/stonefish_ros2:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/minigirona_stonefish:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:/home/adel/ros2_ws/install/stonefish_ros2/lib:/home/adel/ros2_ws/install/cola2_msgs/lib:/home/adel/ros2_ws/install/cola2_lib/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/adel/ros2_ws/build/minigirona_stonefish -- -j12 -l12
+[17.078s] Invoking command in '/home/adel/ros2_ws/build/minigirona_stonefish': CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_minigirona:/home/adel/ros2_ws/install/minigirona_description:/home/adel/ros2_ws/install/cola2_control:/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/stonefish_ros2:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/minigirona_stonefish:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:/home/adel/ros2_ws/install/stonefish_ros2/lib:/home/adel/ros2_ws/install/cola2_msgs/lib:/home/adel/ros2_ws/install/cola2_lib/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/adel/ros2_ws/build/minigirona_stonefish
+[17.103s] -- Install configuration: ""
+[17.105s] -- Execute custom install script
+[17.107s] -- Up-to-date symlink: /home/adel/ros2_ws/install/minigirona_stonefish/lib/minigirona_stonefish/minigirona_stonefish_node
+[17.109s] -- Up-to-date symlink: /home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/Phy_Cylinder_Bottom.obj
+[17.109s] -- Up-to-date symlink: /home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/lower_map.png
+[17.111s] -- Up-to-date symlink: /home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/phy_bosch200.obj
+[17.112s] -- Up-to-date symlink: /home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/phy_bosch350.obj
+[17.112s] -- Up-to-date symlink: /home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/phy_cylinder_upper.obj
+[17.112s] -- Up-to-date symlink: /home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/phy_thruster.obj
+[17.112s] -- Up-to-date symlink: /home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/propeller.mtl
+[17.113s] -- Up-to-date symlink: /home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/propeller.obj
+[17.113s] -- Up-to-date symlink: /home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/upper_left.png
+[17.114s] -- Up-to-date symlink: /home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/upper_right.png
+[17.114s] -- Up-to-date symlink: /home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/vis_bosch200.obj
+[17.115s] -- Up-to-date symlink: /home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/vis_bosch350.obj
+[17.115s] -- Up-to-date symlink: /home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/vis_cylinder_bottom.obj
+[17.115s] -- Up-to-date symlink: /home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/vis_cylinder_ul.obj
+[17.115s] -- Up-to-date symlink: /home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/vis_cylinder_ur.obj
+[17.116s] -- Up-to-date symlink: /home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/vis_thruster.mtl
+[17.116s] -- Up-to-date symlink: /home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/vis_thruster.obj
+[17.116s] -- Up-to-date symlink: /home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/data/pool/cirs_tank.obj
+[17.117s] -- Up-to-date symlink: /home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/launch/minigirona_simulation.launch.py
+[17.117s] -- Up-to-date symlink: /home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/scenarios/minigirona.scn
+[17.117s] -- Up-to-date symlink: /home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/scenarios/minigirona_tank.scn
+[17.117s] -- Up-to-date symlink: /home/adel/ros2_ws/install/minigirona_stonefish/share/ament_index/resource_index/package_run_dependencies/minigirona_stonefish
+[17.118s] -- Up-to-date symlink: /home/adel/ros2_ws/install/minigirona_stonefish/share/ament_index/resource_index/parent_prefix_path/minigirona_stonefish
+[17.119s] -- Up-to-date symlink: /home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/environment/ament_prefix_path.sh
+[17.120s] -- Up-to-date symlink: /home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/environment/ament_prefix_path.dsv
+[17.120s] -- Up-to-date symlink: /home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/environment/path.sh
+[17.120s] -- Up-to-date symlink: /home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/environment/path.dsv
+[17.121s] -- Up-to-date symlink: /home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/local_setup.bash
+[17.122s] -- Up-to-date symlink: /home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/local_setup.sh
+[17.122s] -- Up-to-date symlink: /home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/local_setup.zsh
+[17.122s] -- Up-to-date symlink: /home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/local_setup.dsv
+[17.123s] -- Symlinking: /home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/package.dsv
+[17.144s] -- Up-to-date symlink: /home/adel/ros2_ws/install/minigirona_stonefish/share/ament_index/resource_index/packages/minigirona_stonefish
+[17.145s] -- Up-to-date symlink: /home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/cmake/minigirona_stonefishConfig.cmake
+[17.145s] -- Up-to-date symlink: /home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/cmake/minigirona_stonefishConfig-version.cmake
+[17.145s] -- Up-to-date symlink: /home/adel/ros2_ws/install/minigirona_stonefish/share/minigirona_stonefish/package.xml
+[17.149s] Invoked command in '/home/adel/ros2_ws/build/minigirona_stonefish' returned '0': CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_minigirona:/home/adel/ros2_ws/install/minigirona_description:/home/adel/ros2_ws/install/cola2_control:/home/adel/ros2_ws/install/cola2_lib_ros:/home/adel/ros2_ws/install/stonefish_ros2:/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/minigirona_stonefish:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_lib_ros/lib:/home/adel/ros2_ws/install/stonefish_ros2/lib:/home/adel/ros2_ws/install/cola2_msgs/lib:/home/adel/ros2_ws/install/cola2_lib/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/adel/ros2_ws/build/minigirona_stonefish

@@ -1,0 +1,74 @@
+[0.017s] Invoking command in '/home/adel/ros2_ws/build/cola2_lib_ros': CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/minigirona_stonefish:/home/adel/ros2_ws/install/stonefish_ros2:/home/adel/ros2_ws/install/cola2_minigirona:/home/adel/ros2_ws/install/minigirona_description:/home/adel/ros2_ws/install/cola2_control:/home/adel/ros2_ws/install/cola2_lib_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_msgs/lib:/home/adel/ros2_ws/install/cola2_lib/lib:/home/adel/ros2_ws/install/stonefish_ros2/lib:/home/adel/ros2_ws/install/cola2_lib_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/adel/ros2_ws/src/cola2_lib_ros -DCMAKE_INSTALL_PREFIX=/home/adel/ros2_ws/install/cola2_lib_ros
+[0.031s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.176s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.186s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.220s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.222s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.231s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.243s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.256s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.292s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.293s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.409s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.463s] -- Found tf2: 0.25.11 (/opt/ros/humble/share/tf2/cmake)
+[0.481s] -- Found tf2_ros: 0.25.11 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.566s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.585s] -- Found diagnostic_msgs: 4.2.4 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[0.603s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.625s] -- Found cola2_msgs: 24.1.0 (/home/adel/ros2_ws/install/cola2_msgs/share/cola2_msgs/cmake)
+[0.681s] -- COLA2_LIB found version 24.1.1
+[0.682s] -- COLA2_LIB include directories: /home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/../../include/cola2_lib;/usr/include;/usr/include/eigen3
+[0.682s] -- COLA2_LIB libraries: cola2_io;cola2_utils;cola2_mission;cola2_comms;cola2_wmmc;cola2_wmm
+[0.682s] -- Including COLA2_LIB include directories
+[0.695s] -- Found cola2_lib: 1.0.0 (/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/cmake)
+[0.794s] -- Configuring done
+[0.820s] -- Generating done
+[0.826s] -- Build files have been written to: /home/adel/ros2_ws/build/cola2_lib_ros
+[0.835s] Invoked command in '/home/adel/ros2_ws/build/cola2_lib_ros' returned '0': CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/minigirona_stonefish:/home/adel/ros2_ws/install/stonefish_ros2:/home/adel/ros2_ws/install/cola2_minigirona:/home/adel/ros2_ws/install/minigirona_description:/home/adel/ros2_ws/install/cola2_control:/home/adel/ros2_ws/install/cola2_lib_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_msgs/lib:/home/adel/ros2_ws/install/cola2_lib/lib:/home/adel/ros2_ws/install/stonefish_ros2/lib:/home/adel/ros2_ws/install/cola2_lib_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/adel/ros2_ws/src/cola2_lib_ros -DCMAKE_INSTALL_PREFIX=/home/adel/ros2_ws/install/cola2_lib_ros
+[0.837s] Invoking command in '/home/adel/ros2_ws/build/cola2_lib_ros': CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/minigirona_stonefish:/home/adel/ros2_ws/install/stonefish_ros2:/home/adel/ros2_ws/install/cola2_minigirona:/home/adel/ros2_ws/install/minigirona_description:/home/adel/ros2_ws/install/cola2_control:/home/adel/ros2_ws/install/cola2_lib_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_msgs/lib:/home/adel/ros2_ws/install/cola2_lib/lib:/home/adel/ros2_ws/install/stonefish_ros2/lib:/home/adel/ros2_ws/install/cola2_lib_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/adel/ros2_ws/build/cola2_lib_ros -- -j12 -l12
+[0.902s] [35m[1mConsolidate compiler generated dependencies of target cola2_ros[0m
+[0.935s] [100%] Built target cola2_ros
+[0.948s] Invoked command in '/home/adel/ros2_ws/build/cola2_lib_ros' returned '0': CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/minigirona_stonefish:/home/adel/ros2_ws/install/stonefish_ros2:/home/adel/ros2_ws/install/cola2_minigirona:/home/adel/ros2_ws/install/minigirona_description:/home/adel/ros2_ws/install/cola2_control:/home/adel/ros2_ws/install/cola2_lib_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_msgs/lib:/home/adel/ros2_ws/install/cola2_lib/lib:/home/adel/ros2_ws/install/stonefish_ros2/lib:/home/adel/ros2_ws/install/cola2_lib_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/adel/ros2_ws/build/cola2_lib_ros -- -j12 -l12
+[0.952s] Invoking command in '/home/adel/ros2_ws/build/cola2_lib_ros': CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/minigirona_stonefish:/home/adel/ros2_ws/install/stonefish_ros2:/home/adel/ros2_ws/install/cola2_minigirona:/home/adel/ros2_ws/install/minigirona_description:/home/adel/ros2_ws/install/cola2_control:/home/adel/ros2_ws/install/cola2_lib_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_msgs/lib:/home/adel/ros2_ws/install/cola2_lib/lib:/home/adel/ros2_ws/install/stonefish_ros2/lib:/home/adel/ros2_ws/install/cola2_lib_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/adel/ros2_ws/build/cola2_lib_ros
+[0.965s] -- Install configuration: ""
+[0.966s] -- Execute custom install script
+[0.968s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib_ros/include/cola2_lib_ros/captain_helper.h
+[0.968s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib_ros/include/cola2_lib_ros/diagnostic_helper.h
+[0.969s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib_ros/include/cola2_lib_ros/navigation_helper.h
+[0.969s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib_ros/include/cola2_lib_ros/param_loader.h
+[0.970s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib_ros/include/cola2_lib_ros/serviceclient_helper.h
+[0.971s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib_ros/include/cola2_lib_ros/setpoints_selector.h
+[0.971s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib_ros/include/cola2_lib_ros/this_node.h
+[0.972s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib_ros/include/cola2_lib_ros/transform_handler.h
+[0.973s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib_ros/include/cola2_lib_ros/types.h
+[0.975s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib_ros/lib/cola2_lib_ros/python/cola2_ros/__init__.py
+[0.976s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib_ros/lib/cola2_lib_ros/python/cola2_ros/captain_helper.py
+[0.976s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib_ros/lib/cola2_lib_ros/python/cola2_ros/diagnostic_helper.py
+[0.977s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib_ros/lib/cola2_lib_ros/python/cola2_ros/navigation_helper.py
+[0.977s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib_ros/lib/cola2_lib_ros/python/cola2_ros/param_loader.py
+[0.978s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib_ros/lib/cola2_lib_ros/python/cola2_ros/service_helper.py
+[0.979s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib_ros/lib/cola2_lib_ros/python/cola2_ros/this_node.py
+[0.979s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib_ros/lib/cola2_lib_ros/python/cola2_ros/transform_handler.py
+[0.979s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/src/cola2_lib_ros/urdf_macros.xacro
+[0.980s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/environment/library_path.sh
+[0.981s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/environment/library_path.dsv
+[0.981s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib_ros/share/ament_index/resource_index/package_run_dependencies/cola2_lib_ros
+[0.982s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib_ros/share/ament_index/resource_index/parent_prefix_path/cola2_lib_ros
+[0.982s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/environment/ament_prefix_path.sh
+[0.982s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/environment/ament_prefix_path.dsv
+[0.982s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/environment/path.sh
+[0.982s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/environment/path.dsv
+[0.983s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/local_setup.bash
+[0.983s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/local_setup.sh
+[0.984s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/local_setup.zsh
+[0.984s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/local_setup.dsv
+[0.984s] -- Symlinking: /home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/package.dsv
+[0.999s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib_ros/share/ament_index/resource_index/packages/cola2_lib_ros
+[1.000s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.000s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.001s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[1.001s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/cmake/cola2_lib_rosConfig.cmake
+[1.002s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/cmake/cola2_lib_rosConfig-version.cmake
+[1.002s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/package.xml
+[1.003s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib_ros/lib/libcola2_ros.so
+[1.008s] Invoked command in '/home/adel/ros2_ws/build/cola2_lib_ros' returned '0': CMAKE_PREFIX_PATH=/home/adel/ros2_ws/install/cola2_msgs:/home/adel/ros2_ws/install/cola2_lib:/home/adel/ros2_ws/install/minigirona_stonefish:/home/adel/ros2_ws/install/stonefish_ros2:/home/adel/ros2_ws/install/cola2_minigirona:/home/adel/ros2_ws/install/minigirona_description:/home/adel/ros2_ws/install/cola2_control:/home/adel/ros2_ws/install/cola2_lib_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/adel/ros2_ws/install/cola2_msgs/lib:/home/adel/ros2_ws/install/cola2_lib/lib:/home/adel/ros2_ws/install/stonefish_ros2/lib:/home/adel/ros2_ws/install/cola2_lib_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/adel/ros2_ws/build/cola2_lib_ros

@@ -1,0 +1,146 @@
+[0.022s] Invoking command in '/home/adel/ros2_ws/build/cola2_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adel/ros2_ws/src/cola2_lib -DCMAKE_INSTALL_PREFIX=/home/adel/ros2_ws/install/cola2_lib
+[0.048s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.048s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.048s]   CMake.
+[0.048s] 
+[0.048s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.048s]   CMake that the project does not need compatibility with older versions.
+[0.048s] 
+[0.048s] [0m
+[0.060s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.231s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.245s] -- cola2_lib version 24.1.1
+[0.362s] -- Configuring done
+[0.391s] -- Generating done
+[0.396s] -- Build files have been written to: /home/adel/ros2_ws/build/cola2_lib
+[0.402s] Invoked command in '/home/adel/ros2_ws/build/cola2_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adel/ros2_ws/src/cola2_lib -DCMAKE_INSTALL_PREFIX=/home/adel/ros2_ws/install/cola2_lib
+[0.403s] Invoking command in '/home/adel/ros2_ws/build/cola2_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adel/ros2_ws/build/cola2_lib -- -j12 -l12
+[0.475s] [35m[1mConsolidate compiler generated dependencies of target cola2_wmmc[0m
+[0.479s] [35m[1mConsolidate compiler generated dependencies of target cola2_comms[0m
+[0.484s] [35m[1mConsolidate compiler generated dependencies of target cola2_mission[0m
+[0.495s] [35m[1mConsolidate compiler generated dependencies of target cola2_utils[0m
+[0.496s] [35m[1mConsolidate compiler generated dependencies of target cola2_io[0m
+[0.503s] [ 10%] Built target cola2_wmmc
+[0.516s] [ 20%] Built target cola2_comms
+[0.519s] [ 48%] Built target cola2_mission
+[0.525s] [35m[1mConsolidate compiler generated dependencies of target cola2_wmm[0m
+[0.538s] [ 55%] Built target cola2_wmm
+[0.553s] [ 82%] Built target cola2_utils
+[0.573s] [100%] Built target cola2_io
+[0.589s] Invoked command in '/home/adel/ros2_ws/build/cola2_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adel/ros2_ws/build/cola2_lib -- -j12 -l12
+[0.602s] Invoking command in '/home/adel/ros2_ws/build/cola2_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adel/ros2_ws/build/cola2_lib
+[0.614s] -- Install configuration: ""
+[0.614s] -- Execute custom install script
+[0.615s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/environment/library_path.sh
+[0.615s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/environment/library_path.dsv
+[0.616s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib/share/ament_index/resource_index/package_run_dependencies/cola2_lib
+[0.616s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib/share/ament_index/resource_index/parent_prefix_path/cola2_lib
+[0.617s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/environment/ament_prefix_path.sh
+[0.617s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/environment/ament_prefix_path.dsv
+[0.618s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/environment/path.sh
+[0.618s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/environment/path.dsv
+[0.618s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/local_setup.bash
+[0.618s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/local_setup.sh
+[0.619s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/local_setup.zsh
+[0.619s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/local_setup.dsv
+[0.619s] -- Symlinking: /home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/package.dsv
+[0.632s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib/share/ament_index/resource_index/packages/cola2_lib
+[0.632s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.632s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.632s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/cmake/ament_cmake_export_libraries-extras.cmake
+[0.633s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/cmake/cola2_libConfig.cmake
+[0.633s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/cmake/cola2_libConfig-version.cmake
+[0.633s] -- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/package.xml
+[0.634s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/lib/libcola2_io.so
+[0.634s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/io/io_base.h
+[0.635s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/io/serial_port.h
+[0.635s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/io/tcp_socket.h
+[0.635s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/io/udp_socket.h
+[0.635s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/io/nmea_parser.h
+[0.635s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/lib/libcola2_utils.so
+[0.635s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/utils/angles.h
+[0.636s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/utils/error_macro.h
+[0.636s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/utils/filesystem.h
+[0.636s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/utils/ned.h
+[0.636s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/utils/pressure.h
+[0.636s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/utils/saturate.h
+[0.636s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/utils/thread_safe_flag.h
+[0.636s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/utils/thread_pool.h
+[0.636s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/utils/tdm.h
+[0.637s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/lib/libcola2_mission.so
+[0.637s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/mission/mission.h
+[0.637s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/mission/mission_step.h
+[0.637s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/mission/mission_action.h
+[0.637s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/mission/mission_maneuver.h
+[0.637s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/mission/mission_goto.h
+[0.637s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/mission/mission_section.h
+[0.637s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/mission/mission_park.h
+[0.637s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/lib/libcola2_comms.so
+[0.637s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/comms/altitude.h
+[0.637s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/comms/elapsed_time.h
+[0.637s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/lib/libcola2_wmmc.so
+[0.637s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/wmmc/GeomagnetismHeader.h
+[0.637s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/wmmc/wmm.h
+[0.638s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/lib/libcola2_wmm.so
+[0.638s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/wmm/wmm.h
+[1.124s] Defaulting to user installation because normal site-packages is not writeable
+[1.322s] Processing /home/adel/ros2_ws/build/cola2_lib
+[1.323s]   Preparing metadata (setup.py): started
+[1.597s]   Preparing metadata (setup.py): finished with status 'done'
+[1.601s] Building wheels for collected packages: cola2
+[1.602s]   Building wheel for cola2 (setup.py): started
+[1.951s]   Building wheel for cola2 (setup.py): finished with status 'done'
+[1.952s]   Created wheel for cola2: filename=cola2-24.1.1-py3-none-any.whl size=22740 sha256=fa695c582c8459e379dbfda7d95edac3ba35d3e0cc0a6c541bc032653b1a92c7
+[1.952s]   Stored in directory: /tmp/pip-ephem-wheel-cache-p26w3yxm/wheels/13/02/a6/8f17ec4afeeaafea29366a02a355c4ca4f5f8b1ba3cc31f31a
+[1.955s] Successfully built cola2
+[2.332s] Installing collected packages: cola2
+[2.332s]   Attempting uninstall: cola2
+[2.333s]     Found existing installation: cola2 24.1.1
+[2.344s]     Uninstalling cola2-24.1.1:
+[2.345s]       Successfully uninstalled cola2-24.1.1
+[2.373s] Successfully installed cola2-24.1.1
+[2.469s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/COLA2_LIBConfig.cmake
+[2.469s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/COLA2_LIBConfigVersion.cmake
+[2.469s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/COLA2_LIBDependencies.cmake
+[2.469s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/FindTinyXML.cmake
+[2.469s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/data/WMM.COF
+[2.470s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/COLA2_LIBTargets.cmake
+[2.470s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/COLA2_LIBTargets-noconfig.cmake
+[2.470s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include
+[2.470s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib
+[2.470s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/comms
+[2.471s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/comms/altitude.h
+[2.471s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/comms/elapsed_time.h
+[2.471s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/utils
+[2.471s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/utils/tdm.h
+[2.471s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/utils/saturate.h
+[2.471s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/utils/error_macro.h
+[2.471s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/utils/ned.h
+[2.471s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/utils/angles.h
+[2.472s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/utils/thread_safe_flag.h
+[2.472s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/utils/thread_pool.h
+[2.472s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/utils/filesystem.h
+[2.472s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/utils/pressure.h
+[2.472s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/wmm
+[2.472s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/wmm/wmm.h
+[2.472s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/wmmc
+[2.472s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/wmmc/GeomagnetismHeader.h
+[2.472s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/wmmc/wmm.h
+[2.472s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/io
+[2.472s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/io/nmea_parser.h
+[2.472s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/io/tcp_socket.h
+[2.473s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/io/serial_port.h
+[2.473s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/io/udp_socket.h
+[2.473s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/io/io_base.h
+[2.473s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/mission
+[2.473s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/mission/mission_goto.h
+[2.473s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/mission/mission.h
+[2.473s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/mission/mission_section.h
+[2.473s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/mission/mission_step.h
+[2.473s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/mission/mission_maneuver.h
+[2.473s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/mission/mission_park.h
+[2.474s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/include/cola2_lib/mission/mission_action.h
+[2.474s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/cmake
+[2.474s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/cmake/COLA2_LIBDependencies.cmake
+[2.474s] -- Up-to-date: /home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/cmake/FindTinyXML.cmake
+[2.476s] Invoked command in '/home/adel/ros2_ws/build/cola2_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adel/ros2_ws/build/cola2_lib

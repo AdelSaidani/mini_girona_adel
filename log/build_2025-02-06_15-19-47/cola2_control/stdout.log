@@ -1,0 +1,103 @@
+-- COLA2_LIB found version 24.1.1
+-- COLA2_LIB include directories: /home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/../../include/cola2_lib;/usr/include;/usr/include/eigen3
+-- COLA2_LIB libraries: cola2_io;cola2_utils;cola2_mission;cola2_comms;cola2_wmmc;cola2_wmm
+-- Including COLA2_LIB include directories
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_core: 1.3.11 (/opt/ros/humble/share/ament_cmake_core/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found tf2: 0.25.11 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.11 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.25.11 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found tf2_eigen: 0.25.11 (/opt/ros/humble/share/tf2_eigen/cmake)
+-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found diagnostic_msgs: 4.2.4 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found cola2_msgs: 24.1.0 (/home/adel/ros2_ws/install/cola2_msgs/share/cola2_msgs/cmake)
+-- Found cola2_lib_ros: 24.1.2 (/home/adel/ros2_ws/install/cola2_lib_ros/share/cola2_lib_ros/cmake)
+-- Found cola2_lib: 1.0.0 (/home/adel/ros2_ws/install/cola2_lib/share/cola2_lib/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/adel/ros2_ws/build/cola2_control
+[35m[1mConsolidate compiler generated dependencies of target cola2_control[0m
+[  0%] Built target ament_cmake_python_symlink_cola2_control
+[ 63%] Built target cola2_control
+[35m[1mConsolidate compiler generated dependencies of target pilot_node[0m
+[35m[1mConsolidate compiler generated dependencies of target controller_node[0m
+[35m[1mConsolidate compiler generated dependencies of target captain_node[0m
+[35m[1mConsolidate compiler generated dependencies of target teleoperation_node[0m
+[ 72%] Built target pilot_node
+[ 81%] Built target captain_node
+[100%] Built target controller_node
+[100%] Built target teleoperation_node
+running egg_info
+writing cola2_control.egg-info/PKG-INFO
+writing dependency_links to cola2_control.egg-info/dependency_links.txt
+writing top-level names to cola2_control.egg-info/top_level.txt
+reading manifest file 'cola2_control.egg-info/SOURCES.txt'
+writing manifest file 'cola2_control.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_cola2_control_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/lib/cola2_control/libcola2_control.a
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/lib/cola2_control/captain_node
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/lib/cola2_control/controller_node
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/lib/cola2_control/pilot_node
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/lib/cola2_control/teleoperation_node
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/include/cola2_control/controllers/anchor.h
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/include/cola2_control/controllers/holonomic_keep_position.h
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/include/cola2_control/controllers/section.h
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/include/cola2_control/controllers/types.h
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/include/cola2_control/low_level_controllers/auv_controller_base.h
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/include/cola2_control/low_level_controllers/controller_base.h
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/include/cola2_control/low_level_controllers/merge.h
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/include/cola2_control/low_level_controllers/ndof_controller.h
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/include/cola2_control/low_level_controllers/only_thruster_allocator.h
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/include/cola2_control/low_level_controllers/only_thrusters_controller.h
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/include/cola2_control/low_level_controllers/pid.h
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/include/cola2_control/low_level_controllers/poly.h
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/include/cola2_control/low_level_controllers/request.h
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/include/cola2_control/ros_controller/auv_ros_controller_base.h
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/cfg/controller.cfg
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/config/captain.yaml
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/config/controller.yaml
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/config/logitech_fx10_to_teleoperation.yaml
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/config/pilot.yaml
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/config/teleoperation.yaml
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/launch/control.launch.py
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/environment/pythonpath.sh
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/local/lib/python3.10/dist-packages/cola2_control-24.1.4-py3.10.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/local/lib/python3.10/dist-packages/cola2_control-24.1.4-py3.10.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/local/lib/python3.10/dist-packages/cola2_control-24.1.4-py3.10.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/local/lib/python3.10/dist-packages/cola2_control-24.1.4-py3.10.egg-info/top_level.txt
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/local/lib/python3.10/dist-packages/cola2_control/__init__.py
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/local/lib/python3.10/dist-packages/cola2_control/joystickbase.py
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/lib/cola2_control/logitech_fx10_to_teleoperation_node.py
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/share/ament_index/resource_index/package_run_dependencies/cola2_control
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/share/ament_index/resource_index/parent_prefix_path/cola2_control
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/environment/path.sh
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/environment/path.dsv
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/local_setup.bash
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/local_setup.sh
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/local_setup.zsh
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/local_setup.dsv
+-- Symlinking: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/package.dsv
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/share/ament_index/resource_index/packages/cola2_control
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/cmake/cola2_controlConfig.cmake
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/cmake/cola2_controlConfig-version.cmake
+-- Up-to-date symlink: /home/adel/ros2_ws/install/cola2_control/share/cola2_control/package.xml
+Listing '/home/adel/ros2_ws/install/cola2_control/local/lib/python3.10/dist-packages/cola2_control'...
